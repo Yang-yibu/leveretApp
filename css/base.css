@@ -1,0 +1,261 @@
+/*----- 基础样式 -----*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "苹方","Microsoft YaHei",sans-serif;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+input[type=text] {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 100px;
+}
+
+body {
+    font-size: 16px;
+    background: #f5f8f6;
+}
+
+/* 1rem = 100px * 320px/750px */
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+/*----- 基础样式 end -----*/
+
+/*----- 设置字体
+ * 按照 750px 设计稿测量 换算成响应的 rem -----*/
+.f24 {
+    font-size: 0.24rem;
+}
+.f26 {
+    font-size: 0.26rem;
+}
+.f28 {
+    font-size: 0.28rem;
+}
+.f30 {
+    font-size: 0.3rem;
+}
+.f32 {
+    font-size: 0.32rem;
+}
+.f38 {
+    font-size: 0.38rem;
+}
+.f34 {
+    font-size: 0.34rem;
+}
+
+/*----- 设置字体 end -----*/
+
+/*----- 颜色 -----*/
+.bg-f {
+    background: #fff;
+}
+.bg-f6f8f7 {
+    /*背景灰*/
+    background-color: #f6f8f7; 
+}
+
+.bg-theme {
+    /*主题渐变绿*/
+    background: linear-gradient(to right, #42d36e , #4fd3a2);
+}
+
+.c-45d {
+    /*主题绿*/
+    color: #45d276;
+}
+
+.c-f {
+    /*白色*/
+    color: #fff;
+}
+.c-71 {
+    /*灰色*/
+    color: #717171;
+}
+.c-0 {
+    /*黑色*/
+   color: #000;
+}
+.c-40 {
+    /*黑色*/
+    color: #404040;
+}
+.c-b7 {
+    color: #b7b7b7;
+}
+.c-ff0{
+    /*红色*/
+    color: #ff0000;
+}
+
+
+/*----- 颜色 end -----*/
+
+/*-----公共样式-----*/
+.float-l {
+    float: left;
+}
+.float-r {
+    float: right;
+}
+
+.bor-top {
+    border-top: 1px solid #e7e7e7;
+}
+.bor-bot{
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.flex-col {
+    display:         flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: center;
+            align-items: center;
+}
+
+.flex-row {
+    display:         flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-align-items: center;
+            align-items: center;
+}
+
+.justify {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.center {
+    text-align: center;
+}
+/*-----公共样式 end-----*/
+
+.mui-content {
+    background: none;
+}
+
+.void32 {
+    height: 0.32rem;
+}
+.void40 {
+    height: 0.4rem;
+}
+.void80 {
+    height: 0.8rem;
+}
+.void100 {
+    height: 1rem;
+}
+
+/* 头部导航栏 */
+.top-nav .mui-title,
+.top-nav .mui-icon-left-nav,
+.top-nav .mui-btn-link{
+    color: #fff;
+}
+
+/* 列表 */
+.rectTable {
+    
+}
+.rectItem {
+    height: 0.8rem;
+    padding-left: 0.50rem;
+    padding-right: 0.50rem;
+    line-height: 0.8rem;
+
+    border-top: 1px solid #e7e7e7;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.rectItem:last-child {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+/* 按钮 */
+.btnBox {
+    /*width: 72.26666%;*/
+    width: 5.4rem;
+    margin: 0.4rem auto;
+}
+.btn {
+    width: 100%;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+.radio input[type =radio]{
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    top: 5px;
+}
+.radio input[type =radio]:before{
+    color: #45d276;
+}
+.radio input[type =radio]:checked:before{
+    color: #45d276;
+}
+.mui-radio.radio label {
+    padding-left: 0.4rem;
+}
+
+.avatar {
+    width: 1.56rem;
+    height: 1.56rem;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 12px #d5ede3;
+            box-shadow: 0 0 12px #d5ede3;
+}
+
+
+

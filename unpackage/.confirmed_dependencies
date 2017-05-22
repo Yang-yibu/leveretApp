@@ -1,0 +1,53 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"pages/gAddDeviceSuc.html",
+			"pages/gLoading.html",
+			"pages/gBindingList.html"
+		],
+		"refer": [
+			"pages/gAddDeviceSuc.html",
+			"pages/gLoading.html",
+			"pages/gBindingList.html"
+		]
+	},
+	"pages/gAddDeviceSuc.html": {
+		"resources": [
+			"images/biao.png",
+			"css/base.css",
+			"css/guide.css",
+			"fonts/mui.ttf",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"pages/gLoading.html": {
+		"resources": [
+			"css/base.css",
+			"css/guide.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/animate.css",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"pages/gBindingList.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/base.css",
+			"css/guide.css",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	}
+}

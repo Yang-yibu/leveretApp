@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/guide.css" />
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header class="mui-bar mui-bar-nav bg-theme top-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">宝宝管理</h1>
+        <a class="mui-btn mui-btn-link mui-pull-right"
+             href="">跳过</a>
+    </header>
+    <!-- 头部导航 end -->
+    
+    <div class="mui-content logo gAdd flex-col">
+        <img class="avatar" src="../images/avatar.png" alt="" />
+        <span class="f24 avatarName">点击更换头像</span>
+    </div>
+    
+    <form action="" class="">
+        <ul class="addInfoList f28">
+            <li class="item flex-row justify mui-input-row">
+                <label class="name">宝宝昵称:</label>
+                <input type="text" 
+                    class="mui-input-clear f28" 
+                    placeholder="请输入内容" />
+            </li>
+            <li class="item flex-row justify">
+                <div class="name">宝宝性别:</div>
+                <ul class="flex-row selSex">
+                    <li class="flex-row radio mui-radio mui-left">
+                        <input name="radio1" checked="checked" type="radio">
+                        <label>男孩</label>
+                    </li>
+                    <li class="flex-row radio mui-radio mui-left">
+                        <input name="radio1" checked="checked" type="radio">
+                        <label>女孩</label>
+                    </li>
+                </ul>
+            </li>
+            <li class="item flex-row justify mui-input-row">
+                <div class="name">宝宝年龄:</div>
+                <ul class="flex-row selAge">
+                    <li class="flex-row">
+                        <input class="input" type="text" placeholder="0" />
+                        <span>岁</span>
+                    </li>
+                    <li class="flex-row">
+                        <input class="input" type="text" placeholder="12"/>
+                        <span>周</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </form>
+    
+    <div class="btnS gAdd flex-row justify">
+        <div class="addBtn addBtnLeft f28 mui-icon mui-icon-plusempty">增加宝宝</div>
+        <div class="addBtn f28 mui-icon mui-icon-arrowrightR">我的宝宝</div>
+    </div>
+    
+    <!-- 按钮与设备间隔 -->
+    <div class="void100"></div>
+    <!-- 按钮与设备间隔 end -->
+    
+    <!-- 提交按钮 -->
+    <div class="btnBox">
+        <button type="button" class="mui-btn btn bg-theme c-f">完成</button>
+    </div>
+    <!--提交按钮 end -->
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+
+</script>
+
+</html>

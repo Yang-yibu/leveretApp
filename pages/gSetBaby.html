@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/guide.css" />
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header class="mui-bar mui-bar-nav bg-theme top-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">我的宝宝</h1>
+        <a class="mui-btn mui-btn-link mui-pull-right"
+             href="">跳过</a>
+    </header>
+    <!-- 头部导航 end -->
+    
+    <div class="mui-content logo">
+        <img class="gLogo" src="../images/gLogo.png" alt="" />
+    </div>
+    
+    <!-- 设备名 -->
+    <ul class="rectTable bg-f f28 setBaby">
+        <li class="rectItem c-40 flex-row justify radio mui-input-row mui-radio mui-left">
+            <div class="avatarBox flex-row">
+                <img class="avatar" src="../images/avatar.png"/>
+                <span class="name">瑞瑞rui瑞瑞</span>
+            </div>
+            <ul class="selBtn flex-row">
+                <li class="flex-row radio mui-input-row mui-radio mui-left">
+                    <input name="radio1" checked="checked" type="radio">
+                    <label>当前</label>
+                </li>
+                <li class="splitLine"></li>
+                <li class="flex-row c-ff0">
+                    <span class="mui-icon mui-icon-minus"></span>
+                    <span>删除</span>
+                </li>
+            </ul>
+        </li>
+        <li class="rectItem c-40 flex-row justify radio mui-input-row mui-radio mui-left">
+            <div class="avatarBox flex-row">
+                <img class="avatar" src="../images/avatar.png"/>
+                <span class="name">瑞瑞</span>
+            </div>
+            <ul class="selBtn flex-row">
+                <li class="flex-row radio mui-input-row mui-radio mui-left">
+                    <input name="radio1" type="radio">
+                    <label>当前</label>
+                </li>
+                <li class="splitLine"></li>
+                <li class="flex-row c-ff0">
+                    <span class="mui-icon mui-icon-minus"></span>
+                    <span>删除</span>
+                </li>
+            </ul>
+        </li>
+        <li class="rectItem c-40 flex-row justify radio mui-input-row mui-radio mui-left">
+            <div class="avatarBox flex-row">
+                <img class="avatar" src="../images/avatar.png"/>
+                <span class="name">瑞瑞</span>
+            </div>
+            <ul class="selBtn flex-row">
+                <li class="flex-row radio mui-input-row mui-radio mui-left">
+                    <input name="radio1" type="radio">
+                    <label>当前</label>
+                </li>
+                <li class="splitLine"></li>
+                <li class="flex-row c-ff0">
+                    <span class="mui-icon mui-icon-minus"></span>
+                    <span>删除</span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <!-- 设备名 end -->
+    
+    <!-- 按钮与设备间隔 -->
+    <div class="void100"></div>
+    <div class="void100"></div>
+    <!-- 按钮与设备间隔 end -->
+    
+    <!-- 提交按钮 -->
+    <div class="btnBox setBaby flex-row justify">
+        <button type="button" class="mui-btn btn c-45d">修改</button>
+        <button type="button" class="mui-btn btn bg-theme c-f">完成</button>
+    </div>
+    <!--提交按钮 end -->
+    
+    
+    <!-- 删除宝宝确认弹窗 -->
+    <div class="sureBg flex-col">
+        <div class="sure f32">
+            <span class="mui-icon mui-icon-closeempty"></span>
+            <span>是否 <span class="c-ff0">删除</span>"瑞瑞"宝宝？</span>
+            <div class="btnBox setBaby flex-row justify">
+                <button type="button" class="mui-btn btn c-45d">取消</button>
+                <button type="button" class="mui-btn btn bg-theme c-f">确认</button>
+            </div>
+        </div>
+    </div>
+    <!-- 删除宝宝确认弹窗 end -->
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init()
+</script>
+
+</html>
