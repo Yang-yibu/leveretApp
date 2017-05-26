@@ -1,0 +1,119 @@
+
+/* 登陆界面 -----------------*/
+.login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    overflow: auto;
+}
+
+.login-body {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.login .logo img {
+    height: 1.24rem;
+    margin-top: 0.9rem;
+}
+.login .logo p {
+    margin-top: 0.7rem;
+    margin-bottom: 1.1rem;
+    color: #9f9f9f;
+}
+
+.inputBox {
+    width: 5.4rem;
+    margin: 0 auto;
+}
+
+.inputBox .mui-input-row {
+    height: 0.72rem;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 0.2rem;
+}
+
+.inputBox .mui-input-row label {
+    width: 0.9rem;
+    padding: 0;
+}
+.inputBox .mui-input-row input {
+    width: auto;
+}
+
+.inputBox .mui-input-row .mui-icon {
+    width: 0.40rem;
+    height: 0.40rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.4rem;
+}
+
+.inputBox .radio {
+    margin-top: 0.3rem;
+}
+
+.inputBox .radio input[type = radio] {
+    left: -7px;
+    top: -2px;
+}
+
+.inputBox .btnBox {
+    margin-top: 0.56rem;
+}
+
+.thirdParty {
+    width: 5.4rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cutOff {
+    position: relative;
+    margin-top: 1.3rem;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid #c9c9c9;
+}
+
+.cutOff:before {
+    content: 'OR';
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -1px;
+    width: 0.64rem;
+    background: #fff;
+    text-align: center;
+    color: #c9c9c9;
+    font-size: 0.24rem;
+
+}
+
+.thirdIcon {
+    padding: 0 0.9rem
+}
+
+.thirdIcon .item {
+    display: block;
+    width: 0.78rem;
+    height: 0.78rem;
+    background-repeat: no-repeat;
+    background-size: 0.78rem 0.78rem;
+}
+
+.weChat { 
+    background-image: url(../images/weChat.png);
+}
+.sina { 
+    background-image: url(../images/sina.png);
+}
+.qq { 
+    background-image: url(../images/qq.png);
+}
