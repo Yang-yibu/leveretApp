@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <!-- Mui 部分CSS -->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <!-- buttom 底部页面部分 -->
+    <link rel="stylesheet" href="../css/buttom.css" />
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header class="mui-bar mui-bar-nav bg-theme top-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">用药计划</h1>
+    </header>
+    <!-- 头部导航 end -->
+    
+    <div class="mui-content pl">
+        <div class="void40"></div>
+        
+        <!-- 服药者 -->
+        <div class="pl-user flex-row justify boxSizing bg-f">
+            <div class="flex-row">
+                <img class="avatar" src="../images/avatar.png"/>
+                <ul class="pl-nameBox">
+                    <li class="pl-label bg-theme f24 c-f">服用者</li>
+                    <li class="pl-name f32">昵称：瑞瑞</li>
+                </ul>
+            </div>
+            <button type="button" class="mui-btn btn bg-theme f24 c-f">切换用户</button>
+        </div>
+        <!-- end 服药者 -->
+        
+        <div class="void64"></div>
+        
+        <!--当前用药计划-->
+        <div class="drugPlan">
+            <span class="drug-title f32 c-40">当前用药计划</span>
+            <ul id="OA2" class="showList">
+                <li class="showItem bg-f boxSizing pad50 mui-table-view-cell">
+                    <div id="handle" class="mui-slider-right mui-disabled">
+                       <div class="mui-btn c-f bg-c8 f32">编辑</div>
+                       <div class="mui-btn c-f bg-fe f32">删除</div>
+                    </div>
+                    <div class="mui-slider-handle">
+                        <div class="classes f24 flex-row justify">
+                            <span class="c-40">药品名称</span>
+                            <span class="c-b">阿斯品林</span>
+                        </div>
+                        <div class="classes f24 flex-row justify">
+                            <span class="c-40">服药周期</span>
+                            <span class="c-b">2017/03/24-2017/03/30</span>
+                        </div>
+                        <div class="classes f24 flex-row justify">
+                            <span class="c-40">用法用量</span>
+                            <span class="c-b">一天四次，1次4片</span>
+                        </div>
+                        <div class="classes f24 flex-row justify">
+                            <span class="c-40">据下次服药还有2小时</span>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="showItem bg-f boxSizing pad50 mui-table-view-cell">
+                    <div id="handle" class="mui-slider-right mui-disabled">
+                       <div class="mui-btn c-f bg-c8 f32">编辑</div>
+                       <div class="mui-btn c-f bg-fe f32">删除</div>
+                    </div>
+                    <div class="mui-slider-handle">
+                        <div class="classes f24 flex-row justify">
+                            <span class="c-40">药品名称</span>
+                            <span class="c-b">阿斯品林</span>
+                        </div>
+                        <div class="classes f24 flex-row justify">
+                            <span class="c-40">服药周期</span>
+                            <span class="c-b">2017/03/24-2017/03/30</span>
+                        </div>
+                        <div class="classes f24 flex-row justify">
+                            <span class="c-40">用法用量</span>
+                            <span class="c-b">一天四次，1次4片</span>
+                        </div>
+                        <div class="classes f24 flex-row justify">
+                            <span class="c-40">据下次服药还有2小时</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--end 当前用药计划-->
+        
+        <ul class="tip">
+            <li>请点击下方的“新建”</li>
+            <li>按钮来添加一条新的用药计划</li>
+        </ul>
+        
+        <div class="btnBox">
+            <button type="button" class="mui-btn btn bg-theme c-f">重新添加</button>
+        </div>
+        
+        
+    </div>
+
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init();
+    (function($) {
+        var btnArray = ['确认', '取消'];
+        $('#OA2').on('slideleft', '.mui-table-view-cell', function(event) {
+            var elem = this;
+//          mui.confirm('确认删除该条记录？', 'Hello MUI', btnArray, function(e) {
+//              console.log(e, 'e')
+//              if (e.index == 0) {
+//                  elem.parentNode.removeChild(elem);
+//              } else {
+//                  setTimeout(function() {
+//                      $.swipeoutClose(elem);
+//                  }, 0);
+//              }
+//          });
+        });
+    })(mui);
+</script>
+
+</html>

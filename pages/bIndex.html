@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Mui 部分CSS -->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <!-- buttom 底部页面部分 -->
+    <link rel="stylesheet" href="../css/buttom.css" />
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header class="mui-bar mui-bar-nav bg-theme top-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">附近药店</h1>
+        <a class="mui-btn mui-btn-link mui-pull-right"
+             href="">北京
+        <span href="" class="mui-icon mui-icon-arrowdown"></span>
+        </a>
+    </header>
+    <!-- 头部导航 end -->
+    
+    <div class="mui-content">
+        <div id='list' class="mui-indexed-list index">
+            <!-- 搜索框 -->
+            <div class="search-box flex-row">
+                <div class="search mui-input-row mui-icon mui-icon-search flex-row">
+                    <input type="text" class="mui-input-clear f24" placeholder="中文/拼音/首字母" value="" />
+                </div>
+            </div>
+            <!-- end 搜索框 -->
+            
+            <!-- 右侧字母列表 -->
+            <ul class="list-bar flex-col">
+                <li class="text">定位热门</li>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+                <li>H</li>
+                <li>I</li>
+                <li>J</li>
+                <li>K</li>
+                <li>L</li>
+                <li>M</li>
+                <li>N</li>
+                <li>O</li>
+                <li>P</li>
+                <li>Q</li>
+                <li>R</li>
+                <li>S</li>
+                <li>T</li>
+                <li>U</li>
+                <li>V</li>
+                <li>W</li>
+                <li>X</li>
+                <li>Y</li>
+                <li>Z</li>
+            </ul>
+            <!-- end 右侧字母列表 -->
+            
+            <div class="mui-indexed-list-inner">
+                <!--<div class="mui-indexed-list-empty-alert">没有数据</div>-->
+                
+                <ul class="rectTable f24">
+                    <li class="index-title ">定位地址</li>
+                    <li class="rectItem ">北京海淀XXXX</li>
+                    
+                    <li class="index-title ">热门城市</li>
+                    <li class="rectItem ">北京</li>
+                    <li class="rectItem ">上海</li>
+                    <li class="rectItem ">北京</li>
+                    <li class="rectItem ">广州</li>
+                    <li class="rectItem ">深圳</li>
+                    <li class="rectItem ">杭州</li>
+                    <li class="rectItem ">厦门</li>
+                    <li class="rectItem ">南京</li>
+                    
+                    <li class="index-title">B</li>
+                    <li class="rectItem">北京</li>
+                    <li class="rectItem">北京</li>
+                    <li class="rectItem">北京</li>
+                    <li class="rectItem">北京</li>
+                    <li class="rectItem">北京</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init()
+</script>
+
+</html>

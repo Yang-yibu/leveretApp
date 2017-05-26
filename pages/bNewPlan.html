@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <!-- Mui 部分CSS -->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <!-- buttom 底部页面部分 -->
+    <link rel="stylesheet" href="../css/buttom.css" />
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header class="mui-bar mui-bar-nav bg-theme top-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">服药计划</h1>
+    </header>
+    <!-- 头部导航 end -->
+    
+    <div class="mui-content np">
+        <div class="void64"></div>
+        
+        <!--服药者 patient-->
+        <div class="np-title boxSizing f28 bg-f">服用者</div>
+        <ul class="np-patients f28">
+            <li class="patient flex-row justify boxSizing pad50 bg-f9">
+                <img class="avatar" src="../images/avatar.png"/>
+                <span class="patientsName">瑞瑞</span>
+            </li>
+            <li class="patient flex-row justify boxSizing pad50 bg-e">
+                <img class="avatar" src="../images/avatar.png"/>
+                <span class="patientsName">菁菁</span>
+            </li>
+            <li class="patient flex-row justify boxSizing pad50 bg-f9">
+                <img class="avatar" src="../images/avatar.png"/>
+                <span class="patientsName">宝宝</span>
+            </li>
+        </ul>
+        <!-- end 服药者 -->
+        
+        <div class="void64"></div>
+        
+        <div class="np-title boxSizing f28 bg-f flex-row justify">
+            <span>选择药品</span>
+            <div class="np-input">
+                <input class="f28 " type="text" value="" />
+            </div>
+        </div>
+        
+        <div class="void64"></div>
+        
+        <!--服药时间-->
+        <div class="np-title boxSizing f28 bg-f flex-row">
+            <span>服药时间</span>
+            <div class="np-input np-time">
+                <input class="f28 center" type="text" value="1" />
+                <span class="">时</span>
+            </div>
+            <div class="np-input np-time">
+                <input class="f28 center" type="text" value="1" />
+                <span class="">分</span>
+            </div>
+        </div>
+        <!--end 服药时间-->
+        
+        <div class="void64"></div>
+        
+        <!--服药周期-->
+        <div class="np-cycle np-title boxSizing f28 bg-f flex-row">
+            <span>服药周期</span>
+            <div class="flex-row radio mui-radio mui-left">
+                <input name="radio1" checked="checked" type="radio" />
+                <label>男孩</label>
+            </div>
+            <div class="flex-row radio mui-radio mui-left">
+                <input name="radio1" checked="checked" type="radio" />
+                <label>女孩</label>
+            </div>
+        </div>
+        <ul class="np-cycle">
+            <li class="np-title boxSizing f24 bg-f flex-row justify">
+                <span>起始时间</span>
+                <div class="np-input">
+                    <input class="f24 center" disabled="disabled" type="text" value="2017/3/24" />
+                </div>
+            </li>
+            <li class="np-title boxSizing f24 bg-f flex-row justify">
+                <span>结束时间</span>
+                <div class="np-input">
+                    <input class="f24 center" disabled="disabled" type="text" value="2017/3/24" />
+                </div>
+            </li>
+        </ul>
+        <!--end 服药周期-->
+        <div class="void64"></div>
+        <!--服药剂量-->
+        <div class="np-dosage np-title boxSizing f28 bg-f flex-row justify">
+            <span>服药剂量</span>
+            <div class="np-input">
+                <input class="f24 center" disabled="disabled" type="text" value="" placeholder="数量" />
+                <input class="f24 center" disabled="disabled" type="text" value="" placeholder="单位" />
+                <input class="f24 center" disabled="disabled" type="text" value="" placeholder="规格" />
+            </div>
+        </div>
+        <!--end 服药剂量-->
+        
+        <div class="void64"></div>
+        
+        <!--医嘱备注-->
+        <div class="np-remarks boxSizing f28 bg-f pad50">
+            <span>医嘱备注</span>
+            <textarea class="textArea f24" 
+                name="" 
+                rows="" 
+                cols="" 
+                placeholder="数量......"></textarea>
+        </div>
+        <!--end 医嘱备注-->
+        
+        <div class="void64"></div>
+        
+        <!-- 提交按钮 -->
+        <div class="btnBox flex-row justify">
+            <button type="button" class="mui-btn btn c-45d">继续添加</button>
+            <button type="button" class="mui-btn btn bg-theme c-f">完成</button>
+        </div>
+        <!--提交按钮 end -->
+        <div class="void64"></div>
+    </div>
+
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init()
+</script>
+
+</html>

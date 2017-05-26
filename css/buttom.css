@@ -1,0 +1,285 @@
+/* 附近药店 -----------------------*/
+.mui-indexed-list-inner {
+    padding-top: 50px;
+}
+.index .search-box {
+    position: fixed;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    margin-top: 0.22rem;
+    height: 0.9rem;
+    background: #fff;
+    padding-left: 0.34rem;
+    padding-right: 0.34rem;
+    line-height: 0.9rem;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.index .search-box:after {
+    position: absolute;
+    top: -0.22rem;
+    left: 0;
+    z-index: -1;
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 0.22rem;
+    background: #f5f8f6;
+}
+
+.search.mui-input-row {
+    width: 100%;
+    height: 0.56rem;
+    background: #e5e5e5;
+    border-radius: 5px;
+    padding-left: 0.66rem;
+}
+
+
+.mui-icon-search:before {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 17px;
+}
+
+.search.mui-input-row .mui-icon-clear {
+    top: 5px;
+}
+
+.list-bar {
+            align-items: flex-end;
+    -webkit-align-items: flex-end;
+    position: fixed;
+    top: 50%;
+    right: 0.34rem;
+    transform: translateY(-40%);
+    width: 20px;
+    line-height: 15px;
+    text-align: right;
+    font-size: 10px;
+}
+
+.list-bar li:not(.text) {
+    width: 50%;
+    text-align: center;
+}
+
+
+/*地点列表*/
+.index .index-title {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding: 0 0.34rem;
+    margin-top: 0.55rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.index .rectItem {
+    height: 0.9rem;
+    padding: 0 0.34rem;
+    background: #fff;
+    border-top: none;
+    border-bottom: 1px solid #e7e7e7;
+    line-height: 0.9rem;
+    font-size: 0.28rem;
+}
+
+
+
+/* 新建服药计划 NewPlan ------------*/
+.np-title {
+    height: 1rem;
+    padding: 0.15rem 0.5rem;
+    border-top: 1px solid #e7e7e7;
+    line-height: 0.7rem;
+}
+
+.np-patients .patient {
+    height: 0.7rem;
+    border-bottom: 1px solid #e7e7e7;
+    color: #c8c7c7;
+}
+
+.np-patients .avatar {
+    width: 0.52rem;
+    height: 0.52rem;
+}
+/*end 新建服药计划 NewPlan*/
+
+/*选择药品*/
+.np-input input {
+    width: 4.7rem;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    background: #fbf9f9;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+}
+
+.np-time input{
+    width: 1.15rem;
+    background: #eee;
+}
+
+.np-time span {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.np-time:first-of-type {
+    margin-left: 0.15rem;
+}
+/*end 选择药品*/
+
+/*服药周期*/
+.np-cycle .radio label {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.np-cycle .radio input[type = radio] {
+    left: -0.1rem;
+}
+
+.np-cycle .radio:first-of-type {
+    margin-left: 0.5rem;
+}
+
+.np-cycle .np-input input {
+    width: 2rem;
+    height: 0.7rem;
+    color: #b3b3b3;
+}
+
+.np-cycle .np-title:last-child {
+    padding-top: 0;
+    border-top: 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+/*end 服药周期*/
+
+/*服药剂量*/
+.np-dosage .np-input input {
+    width: 0.7rem;
+    margin-left: 0.1rem;
+}
+/*end 服药剂量*/
+
+/*医嘱备注*/
+.np-remarks {
+    padding-top: 0.38rem;
+    padding-bottom: 0.4rem;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.np-remarks .textArea {
+    min-height: 1.46rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0;
+    border: none;
+    padding: 0.2rem;
+    background: #fbf9f9;
+    border-radius: 5px;
+}
+/*end 医嘱备注*/
+
+.np .btnBox {
+    margin-top: 0.3rem;
+}
+
+.np .btnBox .btn {
+    width: 2.4rem;
+    height: 0.82rem;
+}
+
+
+/* 药店1 sm ---------------*/
+
+.sm .map {
+    width: 100%;
+}
+
+/* 用药计划2 ----------*/
+.pl-user {
+    padding: 0.25rem 0.5rem;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.pl-user .avatar {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.18rem;
+}
+
+.pl-label {
+    width: 0.86rem;
+    height: 0.36rem;
+    margin-bottom: 0.1rem;
+    text-align: center;
+    line-height: 0.36rem;
+    border-radius: 5px;
+}
+
+.pl-user .btn {
+    width: 1.26rem;
+    height: 0.4rem;
+    padding: 0;
+    line-height: 0.4rem;
+}
+
+.drug-title {
+    height: 0.52rem;
+    line-height: 0.52rem;
+    padding-left: 0.5rem;
+}
+
+.showList {
+}
+
+.drugPlan .showItem {
+    margin-bottom: 0.55rem;
+    padding-top: 0.09rem;
+    padding-bottom: 0.09rem;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.tip {
+    padding-top: 0.85rem;
+    font-size: 10px;
+    color: #c1c2c2;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+/* 资讯 info */
+.infoItem {
+    width: 6.47rem;
+    margin: 0 auto;
+}
+
+.info-title {
+    margin-top: 0.3rem;
+    padding-top: 0.14rem;
+    padding-bottom: 0.14rem;
+}
+
+.info-pic {
+    width: 100%;
+    height: 3rem;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.info-pic:before {
+    content: 'PIC';
+    font-size: 0.6rem;
+    color: #e2e2e2;
+    line-height: 3rem;
+
+}
