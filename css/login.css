@@ -1,6 +1,7 @@
 
 /* 登陆界面 -----------------*/
-.login {
+.login,
+.sign {
     position: fixed;
     top: 0;
     left: 0;
@@ -40,11 +41,18 @@
 }
 
 .inputBox .mui-input-row label {
-    width: 0.9rem;
+    width: auto;
     padding: 0;
+    padding-right: 0.15rem;
+            flex-shrink: 0;
+    -webkit-flex-shrink: 0;
 }
 .inputBox .mui-input-row input {
-    width: auto;
+    /*width: auto;*/
+   /*background: red;*/
+            /*flex-shrink: 1;
+    -webkit-flex-shrink: 1;*/
+
 }
 
 .inputBox .mui-input-row .mui-icon {
@@ -116,4 +124,37 @@
 }
 .qq { 
     background-image: url(../images/qq.png);
+}
+
+/* 注册界面 -------------------- */
+
+.sign .logo img {
+    margin-top: 1.4rem;
+}
+
+.sign .logo p {
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.sign .mui-input-row .btn {
+    width: auto;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding: 0 15px;
+}
+
+.sign .btnBox .btn {
+    width: 2.4rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 0.8rem;
+}
+
+.sign .btnBox .btn:first-child {
+    border: 1px solid #48d286;
+}
+
+.sign .btnBox {
+    margin-top: 1.4rem;
 }
