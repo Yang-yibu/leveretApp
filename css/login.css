@@ -158,3 +158,30 @@
 .sign .btnBox {
     margin-top: 1.4rem;
 }
+
+
+
+
+
+/* 找回密码 fp(findPassword) --------------------*/
+.top-nav.fp .mui-title, 
+.top-nav.fp .mui-icon-left-nav, 
+.top-nav.fp .mui-btn-link{
+    color: #404040;
+}
+
+.fp.mui-bar-nav {
+    background: #fff;
+            box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.fp .btnBox .btn {
+    width: 100%;
+}
+
+.fp .btnBox {
+    margin-top: 1.05rem;
+}
+
+
