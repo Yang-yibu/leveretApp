@@ -108,7 +108,7 @@ guide --- 引导页样式
   lFindPassword.html --- 找回密码
   
   lAddAvatar.html --- 头像设置
-  
+    * 备注
   lAvatarEdit.html --- 头像编辑
   
   lSigninSuc.html --- 注册成功

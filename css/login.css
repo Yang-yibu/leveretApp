@@ -1,7 +1,21 @@
+/* 公共样式 */
+.nav-white .mui-title, 
+.nav-white .mui-icon-left-nav, 
+.nav-white .mui-btn-link{
+    color: #404040;
+}
+
+.nav-white.mui-bar-nav {
+    background: #fff;
+            box-shadow: none;
+    -webkit-box-shadow: none;
+}
 
 /* 登陆界面 -----------------*/
 .login,
-.sign {
+.sign,
+.aa,
+.ae {
     position: fixed;
     top: 0;
     left: 0;
@@ -16,7 +30,8 @@
     top: 50%;
     left: 0;
     right: 0;
-    transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 
 .login .logo img {
@@ -59,7 +74,8 @@
     width: 0.40rem;
     height: 0.40rem;
     top: 50%;
-    transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     font-size: 0.4rem;
 }
 
@@ -94,7 +110,8 @@
     display: block;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     margin-top: -1px;
     width: 0.64rem;
     background: #fff;
@@ -159,22 +176,107 @@
     margin-top: 1.4rem;
 }
 
+/* 头像设置 aa(addAvatar) ---------------------*/
+.aa .logo {
+    margin-top: 3.35rem;
+    margin-bottom: 1.54rem;
+}
+.addImg {
+    position: relative;
+    width: 2.5rem;
+    height: 1rem;
+    border: 1px solid #43d274;
+    border-radius: 5px;
+    margin-bottom: 0.35rem;
+}
+.addImg:before,
+.addImg:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: ' ';
+    display: block;
+    width: 0.1rem;
+    height: 0.5rem;
+    border-radius: 0.05rem;
+    background: #43d274;
+}
 
+.addImg:after {
+    width: 0.5rem;
+    height: 0.1rem;
+}
 
+/* 头像设置 avatarEdit(ae)-------------------*/
+.ae .ae-icon {
+    margin-top: 1.36rem;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
 
+.ae .loop,
+.ae .zoom {
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+}
+
+.ae .loop {
+    background-image: url(../images/loop.png);
+}
+.ae .zoom {
+    background-image: url(../images/zoom.png);
+}
+
+.hollowBox {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+
+.hollowBox .hollow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 208px;
+    height: 208px;
+    border-radius: 50%;
+            box-shadow: rgba(67, 210, 113, 0.5) 0 0 0 13000px;
+    -webkit-box-shadow: rgba(67, 210, 113, 0.5) 0 0 0 13000px;
+}
+
+.hollowBox .img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.hollowBox img {
+    width: 100%;
+}*/
+
+.ae .btn {
+    width: 2.4rem;
+    border: 1px solid #45d276;
+    -webkit-box-shadow: 0 0 12px #d5ede3;
+            box-shadow: 0 0 12px #d5ede3;
+
+}
+
+.btnBox {
+    margin-top: 1.8rem;
+}
 
 /* 找回密码 fp(findPassword) --------------------*/
-.top-nav.fp .mui-title, 
-.top-nav.fp .mui-icon-left-nav, 
-.top-nav.fp .mui-btn-link{
-    color: #404040;
-}
-
-.fp.mui-bar-nav {
-    background: #fff;
-            box-shadow: none;
-    -webkit-box-shadow: none;
-}
 
 .fp .btnBox .btn {
     width: 100%;
