@@ -120,3 +120,5 @@ guide --- 引导页样式
   
   lSigninSuc.html --- 注册成功
   lFindSuc.html --- 找回成功
+
+哈哈哈 我是测试checkout 检出出错的
