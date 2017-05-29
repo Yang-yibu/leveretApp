@@ -74,3 +74,43 @@
     -webkit-box-shadow: 0 0 12px #d5ede3;
         box-shadow: 0 0 12px #d5ede3;
 }
+
+/* 消息列表  il (fInfoList.html) ------- */
+
+.il .radio {
+            flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    margin-right: 0.18rem;
+    width: 0.20rem;
+    height: 0.20rem;
+    border-radius: 50%;
+    border: 1px solid #45D276;
+}
+.il .radio:before {
+    margin: 0 auto;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0.10rem;
+    height: 0.10rem;
+    background: #45D276;
+}
+
+.il .rectItem .brief {
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+            flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+
+}
+
+.il .sel .radio {
+    border-color: #b9b9b9;
+}
+.il .sel .radio:before {
+    display: none;
+}
+.il .sel .brief{
+    color: #b9b9b9;
+}
