@@ -70,6 +70,10 @@ guide --- 引导页样式
 
 * f --- 主功能页面 function
   fSetWarning.html --- 报警设置
+    * 未作
+    * 提醒设置 弹窗未作
+    * 备注
+    * 开关使用的mui原生开关
   
   fPersonSet.html --- 点击头像后，出现侧滑页面(个人中心)
   f 切换账号页 小框

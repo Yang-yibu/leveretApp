@@ -1,0 +1,36 @@
+
+/* 报警设置 warn-------------- */
+.warn .title {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-top: 0.45rem;
+}
+
+.warn .noBor {
+    border-bottom: 0;
+}
+
+.warn .temp {
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    width: 0.62rem;
+    height: 0.64rem;
+    border-radius: 5px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 0.68rem;
+}
+.warn .time {
+    width: 1.16rem;
+}
+
+.warn .rectItem .btn {
+    width: 1.7rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    padding: 0;
+}
+
+.warn .btnBox {
+    margin-top: 2.8rem;
+}
