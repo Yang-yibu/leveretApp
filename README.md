@@ -98,18 +98,25 @@ guide --- 引导页样式
 * l --- 注册页面 login
   lLogin.html --- 登陆界面
     * 未作
-    * 该手机号已注册 黑色弹窗(未作)
+    * 用户名不存在 (黑色弹窗)
     * 备注
     * 输入框 flex-shrink 定义缩小比例
   
   lSignIn.html --- 注册界面
+    * 未作
+    * 该手机号已注册 (黑色弹框)
     * 备注
     * 输入框 flex-shrink 定义缩小比例
   lFindPassword.html --- 找回密码
+    * 未作
+    * 请输入正确的手机号 (黑色弹框)
   
   lAddAvatar.html --- 头像设置
     * 备注
+    
   lAvatarEdit.html --- 头像编辑
+    * 备注
+    * 
   
   lSigninSuc.html --- 注册成功
-  l 找回成功
+  lFindSuc.html --- 找回成功

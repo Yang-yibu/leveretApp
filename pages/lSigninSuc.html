@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+</head>
+
+<body>
+
+    <div class="suc">
+        <div class="suc-body">
+            
+            
+            
+            <div class="alertBox flex-col">
+                <img src="../images/gLogo.png"/>
+                <p class="f24 p1">欢迎使用LOGO名</p>
+                
+                <p class="f38 c-45d p2">您已成功注册</p>
+                <p class="f24 c-45d p3">正在跳转主界面</p>
+                
+                <!-- 加类 scrollAn 动画持续时间2s 可用属性更改时间transition-duration-->
+                <div id="sB" class="scrollBar">
+                    <div id="sBchild" class="move"></div>
+                </div>
+                
+            </div>
+            
+            <div class="btnBox">
+                <button id="btn" type="button" class="mui-btn btn bg-theme c-f">确认</button>
+            </div>
+            
+            <p class="f24 center">点击确认后，跳过等待直接跳转主页面</p>
+            
+        </div>
+    </div>
+
+
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init();
+    
+    /* 进度条动画 -----------------------------*/
+    var sB      = document.getElementById('sB');
+    var sBchild = document.getElementById('sBchild');
+    var btn     = document.getElementById('btn');
+    var w       = sBchild.offsetWidth;
+    var time    = 5;
+    var setInter ;
+    console.log(sB, sBchild, btn);
+    
+    setTimeout(function(){
+        addClass(sB, 'scrollAni');
+        setInter = setInterval(star, 1000);
+        btn.innerHTML = "确认 (5S)";
+    }, 2000);
+    
+    function star() {
+        time = time - 1;
+        btn.innerHTML = "确认 (" + time + "S)";
+        if ( time == 0 ) {
+            clearInterval(setInter);
+            console.log('清除进程 setInter')
+        }
+    }
+    /* end 进度条动画 -----------------------------*/
+    
+    function hasClass( elements,cName ){ 
+        return !!elements.className.match( new RegExp( "(\\s|^)" + cName + "(\\s|$)") ); // ( \\s|^ ) 判断前面是否有空格 （\\s | $ ）判断后面是否有空格 两个感叹号为转换为布尔值 以方便做判断 
+    }; 
+    function addClass( elements,cName ){ 
+        if( !hasClass( elements,cName ) ){ 
+            elements.className += " " + cName; 
+        }; 
+    }; 
+    function removeClass( elements,cName ){ 
+        if( hasClass( elements,cName ) ){ 
+            elements.className = elements.className.replace( new RegExp( "(\\s|^)" + cName + "(\\s|$)" )," " ); // replace方法是替换 
+        }; 
+    };
+</script>
+
+</html>
