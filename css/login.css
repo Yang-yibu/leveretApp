@@ -287,6 +287,10 @@
     margin-top: 1.05rem;
 }
 
+.inputBox .mui-input-row .mui-icon-eye.mui-active {
+    color: #45D276;
+}
+
 /* 注册成功 --------------------*/
 .suc {
     width: 100%;
