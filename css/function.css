@@ -34,3 +34,43 @@
 .warn .btnBox {
     margin-top: 2.8rem;
 }
+
+
+/* 联系我们 cu（关于我们 contactUs）*/
+.cu .info img{
+    width: 1.8rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+.cu .info .version {
+    /* 版本号 */
+    margin-top: 0.26rem;
+    margin-bottom: 0.16rem;
+}
+
+.cu .info .btn {
+    width: 1.62rem;
+    height: 0.5rem;
+    border: 1px solid #45D276;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    line-height: 0.5rem;
+}
+
+.cu .rectItem .icon {
+    margin-right: 0.28rem;
+}
+
+.cu .rectItem {
+    padding-right: 0.34rem;
+}
+
+.cu .icon {
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    background: #45D276;
+    -webkit-box-shadow: 0 0 12px #d5ede3;
+        box-shadow: 0 0 12px #d5ede3;
+}

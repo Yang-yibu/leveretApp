@@ -81,6 +81,8 @@ guide --- 引导页样式
   fMedicineIndex.html --- 服药功能主界面
   
   fContactUs.html --- 联系我们
+    * 未作
+    * 左侧小图标
   
   fDataAnalyze.html --- 数据分析(图标)
   
