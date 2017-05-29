@@ -90,9 +90,11 @@ guide --- 引导页样式
   f 主页面低烧 高烧 正常
   
   fInfoList.html --- 消息界面1(列表)
-  
+    * 备注
+    
   fInfoDetails.html --- 消息界面2(消息详情)
-  
+    * 备注
+    
   fMedicineEdit.html --- 新增药品编辑页面
   
   fChangePassword.html --- 修改密码

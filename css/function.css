@@ -114,3 +114,24 @@
 .il .sel .brief{
     color: #b9b9b9;
 }
+
+/* 消息提醒2 fInfoDetail.html --------- */
+
+.il .infoItem {
+    position: relative;
+    max-width: 5.08rem;
+    background: #fff;
+    padding: 0.28rem 0.3rem;
+    border-radius: 20px;
+}
+.il .infoItem:before {
+    position: absolute;
+    bottom: -0.1rem;
+    left: -0.15rem;
+    content: ' ';
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url(../images/wei.png) no-repeat center;
+    background-size: cover;
+}
