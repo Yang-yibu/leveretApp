@@ -111,7 +111,7 @@ guide --- 引导页样式
     * 未作
     * 请输入正确的手机号 (黑色弹框)
   
-  lAddAvatar.html --- 头像设置
+  lAddAvatar.html --- 头像设置/添加
     * 备注
     
   lAvatarEdit.html --- 头像编辑
