@@ -79,7 +79,8 @@ guide --- 引导页样式
   f 切换账号页 小框
   
   fMedicineIndex.html --- 服药功能主界面
-  
+    * 备注
+    
   fContactUs.html --- 联系我们
     * 未作
     * 左侧小图标

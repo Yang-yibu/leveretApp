@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Mui 样式-->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <!-- 功能页样式 -->
+    <link rel="stylesheet" href="../css/function.css" />
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <header class="mui-bar mui-bar-nav bg-theme top-nav flex-row justify">
+        <div class="navLeft flex-row">
+            <div class="avatar">
+                <img src="../images/avatar.png" alt="" />
+            </div>
+            <div class="avatarBox c-f flex-col justify">
+                <div class="name">兰花</div>
+                <div class="age">8岁</div>
+            </div>
+        </div>
+        <div class="navRight mui-icon mui-icon-gear"></div>
+    </header>
+    <!-- end 顶部导航 -->
+    
+    <div class="mui-content boxSizing mi">
+        
+        <div class="void25"></div>
+        
+        <div class="mi1 rectItem bor-bot f28 bg-f">今日服药计划</div>
+        
+        <div class="void54"></div>
+        
+        <div class="rectTable f24 c-40">
+            <ul class="sel mi1 rectItem bg-f flex-row">
+                <li class="time flex-row">
+                    <div class="radio flex-row"></div>
+                    <span>08:00</span>
+                </li>
+                <li class="medicineName">清热解毒口服液清热解</li>
+                <li class="medicineSize">1瓶/10ml</li>
+                <li class="iconBox flex-row justify">
+                    <div class="icon suc"></div>
+                    <!--震动-->
+                    <div class="icon shake"></div>
+                    <div class="icon remark"></div>
+                </li>
+            </ul>
+            <ul class="mi1 rectItem bg-f flex-row">
+                <li class="time flex-row">
+                    <div class="radio flex-row"></div>
+                    <span>12:00</span>
+                </li>
+                <li class="medicineName">头孢氨苄</li>
+                <li class="medicineSize">1片/6mg</li>
+                <li class="iconBox flex-row justify">
+                    <div class="icon suc"></div>
+                    <!--声音-->
+                    <div class="icon volume"></div>
+                    <div class="icon remark"></div>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 倒计时 -->
+        <div class="void54 countDown">
+            <div class="flex-row">
+                <!--钟表-->
+                <div class="icon clock"></div>
+                <span>00:02:59</span>
+            </div>
+        </div>
+        <!-- end 倒计时 -->
+        
+        <div class="rectTable f24 c-40">
+            <ul class="sel mi1 rectItem bg-f flex-row">
+                <li class="time flex-row">
+                    <div class="radio flex-row"></div>
+                    <span>08:00</span>
+                </li>
+                <li class="medicineName">清热解毒口服</li>
+                <li class="medicineSize">1瓶/10ml</li>
+                <li class="iconBox flex-row justify">
+                    <div class="icon suc"></div>
+                    <!--静音-->
+                    <div class="icon mute"></div>
+                    <div class="icon remark"></div>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 按钮 -->
+        <div class="btnBox flex-row justify">
+            <button type="button" class="mui-btn btn bg-theme f24 c-f">增加任务</button>
+            <button type="button" class="mui-btn btn bg-fe c-f f24">删除任务</button>
+        </div>
+        <!-- end 按钮 -->
+        
+        <div class="rectTable">
+            <div class="mi1 rectItem bor-bot f28 bg-f">历史服药记录计划</div>
+            <!--历史记录-->
+            <div class="historyItem c-24">
+                <!--竖线-->
+                <div class="mainString">
+                    <div class="mainS"></div>
+                </div>
+                
+                <div class="time">2017-03-18</div>
+                <div class="drugName c-40">清热解毒口服液，清热解毒口服液</div>
+            </div>
+            <div class="historyItem c-24">
+                <!--竖线-->
+                <div class="mainString">
+                    <div class="mainS"></div>
+                </div>
+                
+                <div class="time">2017-03-18</div>
+                <div class="drugName c-40">清热解毒口服液，清热解毒口服液</div>
+            </div>
+            <div class="historyItem c-24">
+                <!--竖线-->
+                <div class="mainString">
+                    <div class="mainS"></div>
+                </div>
+                
+                <div class="time">2017-03-18</div>
+                <div class="drugName c-40">清热解毒口服液，清热解毒口服液</div>
+            </div>
+        </div>
+        
+        <div class="void100"></div>
+        <div class="void100"></div>
+    </div>
+    
+        <!--底部导航-->
+    <div class="botnav flex-row f32 justify">
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>服药
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>药店
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>温度
+            </span>
+        </div>
+        <div class="currentNav botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>资讯
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>社区
+            </span>
+        </div>
+    </div>
+    <!--end 底部导航-->
+        
+
+    
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init()
+</script>
+
+</html>

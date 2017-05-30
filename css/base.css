@@ -232,6 +232,9 @@ body {
     background: none;
 }
 
+.void25 {
+    height: 0.25rem;
+}
 .void32 {
     height: 0.32rem;
 }
@@ -240,6 +243,9 @@ body {
 }
 .void48 {
     height: 0.48rem;
+}
+.void54 {
+    height: 0.54rem;
 }
 .void64 {
     height: 0.64rem;
