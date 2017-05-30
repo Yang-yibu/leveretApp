@@ -135,3 +135,92 @@
     background: url(../images/wei.png) no-repeat center;
     background-size: cover;
 }
+
+/* 新增药品编辑页面 MedicineEdit.html(me)--------------------*/
+.medicineInfo {
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.medicineInfo .infoItem {
+    height: 0.85rem;
+}
+
+.medicineInfo .caption {
+    width: 1.3rem;
+}
+
+.medicineInfo .input {
+    /*input 框占满剩下的区域*/
+            flex: 1;
+    -webkit-flex: 1;
+    position: relative;
+}
+
+.medicineInfo .input2 {
+    position: relative;
+    width: 2.33rem;
+    margin-left: 0.12rem;
+}
+
+.medicineInfo input {
+    background: #fff;
+    border-radius: 5px;
+    height: 0.55rem;
+    line-height: 0.55rem;
+}
+
+.medicineInfo .icon-camera {
+    width: 0.38rem;
+    height: 0.38rem;
+    margin-left: 0.18rem;
+    margin-right: 0.18rem;
+    background: red;
+}
+
+.medicineInfo .infoItem .icon-triangle {
+    position: absolute;
+    right: 0.22rem;
+    top: 50%;
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 0.14rem solid transparent;
+    border-right: 0.14rem solid transparent;
+    border-top: 0.14rem solid #45D276;
+}
+
+.infoItem.areaBox {
+    display:         flex;
+    display: -webkit-flex;
+    height: auto;
+    padding-top: 0.15rem;
+}
+
+.infoItem.areaBox .caption {
+    padding-top: 0.14rem;
+}
+
+.infoItem.areaBox .textArea {
+            flex: 1;
+    -webkit-flex: 1;
+}
+
+.infoItem.areaBox textarea {
+    min-height: 2.26rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.me .btnBox {
+    margin-top: 0.9rem;
+}
+
+.me .btnBox .btn:first-child {
+    border: 1px solid #45D276;
+}
+
+.me .btn {
+    width: 2.42rem;
+}

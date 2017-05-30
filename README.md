@@ -96,10 +96,13 @@ guide --- 引导页样式
     * 备注
     
   fMedicineEdit.html --- 新增药品编辑页面
-  
+    * 备注
+    
   fChangePassword.html --- 修改密码
     * 备注
     * 使用的是 注册页面的找回密码块，注册面login的css 
+    * 未作
+    * 提交失败(黑色弹窗)
   fMedicineList.html --- 药品目录页面
   
   fMedicineShow.html --- 药品详情页面
