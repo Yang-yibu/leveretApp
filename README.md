@@ -104,7 +104,8 @@ guide --- 引导页样式
     * 未作
     * 提交失败(黑色弹窗)
   fMedicineList.html --- 药品目录页面
-  
+    * 备注
+    * 
   fMedicineShow.html --- 药品详情页面
 
 * l --- 注册页面 login

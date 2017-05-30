@@ -217,10 +217,83 @@
     margin-top: 0.9rem;
 }
 
-.me .btnBox .btn:first-child {
+.me .btnBox .btn:first-child,
+.ml .btnBox .btn:first-child {
     border: 1px solid #45D276;
 }
 
-.me .btn {
+.me .btn,
+.ml .btn {
     width: 2.42rem;
+}
+
+/* 药品目录 medicineList ml ------------ */
+
+.ml .search-box {
+    margin-top: 0.24rem;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+    height: 0.9rem;
+    border-top: 1px solid #e7e7e7;
+    background: #fff;
+}
+
+.ml .search-box .mui-icon {
+    font-size: 17px;
+}
+
+.mui-icon-search:before {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.ml .search-box .search {
+    background: #e5e5e5;
+    width: 100%;
+    height: 0.56rem;
+    border-radius: 5px;
+}
+
+.search.mui-input-row .mui-icon-clear {
+    width: auto;
+    height: auto;
+    right: 5px;
+    top: 50%;
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.ml .rectItem {
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.ml .rectItem .btnBox {
+    width: 0.96rem;
+    height: 0.42rem;
+    margin: 0;
+}
+.ml .rectItem .btn {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: transparent;
+}
+
+.ml .icon-suc {
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 0.1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ml .sel .icon-suc {
+    background-image: url(../images/success.png);
+}
+
+.ml .btnBox {
+    margin-top: 2.54rem;
+    margin-bottom: 0.76rem;
 }
