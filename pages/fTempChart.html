@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Mui 样式-->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <!-- 功能页样式 -->
+    <link rel="stylesheet" href="../css/function.css" />
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <header class="mui-bar mui-bar-nav bg-theme top-nav flex-row justify">
+        <div class="navLeft flex-row">
+            <div class="avatar">
+                <img src="../images/avatar.png" alt="" />
+            </div>
+            <div class="avatarBox c-f flex-col justify">
+                <div class="name">昵称</div>
+                <div class="age">积分100</div>
+            </div>
+        </div>
+        <div class="navRight redDot c-f">消息&nbsp;</div>
+    </header>
+    <!-- end 顶部导航 -->
+    
+    <div class="mui-content boxSizing tc">
+        <div class="tc-body">
+            <div class="void40"></div>
+            
+            <!--宝宝相关-->
+            <div class="tempInfo flex-row justify">
+                <div class="avatarBox flex-row">
+                    <img class="avatar" src="../images/avatar.png"/>
+                    <span class="name">瑞瑞</span>
+                </div>
+                <div class="highestTemp f28">最高温度：0&#8451;</div>
+            </div>
+            <div class="deviceName f28 flex-row justify">
+                <span>HK01-1358</span>
+                <span>数据分析 &gt;</span>
+            </div>
+            
+            <!--温度饼图 lowTemp低温 normal正常  highTepm高温 -->
+            <div class="pieChat highTemp">
+                <div class="tempNum">36</div>
+            </div>
+            
+            <!--曲线图graph-->
+            <div class="graphTemp">
+                <div class="title f28">体温曲线图</div>
+                <div class="graph">
+                    <img src="../images/graphTemp.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部导航-->
+    <div class="botnav flex-row f32 justify">
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>服药
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>药店
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>温度
+            </span>
+        </div>
+        <div class="currentNav botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>资讯
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>社区
+            </span>
+        </div>
+    </div>
+    <!--end 底部导航-->
+        
+
+    
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init()
+</script>
+
+</html>

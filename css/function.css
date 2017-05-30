@@ -412,6 +412,22 @@
     font-size: 10px;
 }
 
+.navRight {
+    position: relative;
+    font-size: 16px;
+}
+.navRight.redDot:before {
+    position: absolute;
+    top: 0;
+    right:0;
+    content: " ";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: red;
+}
+
 .mui-bar-nav.mui-bar .mui-icon {
     margin: 0;
     padding: 0;
@@ -589,3 +605,139 @@
     background: #45D276;
     border-radius: 50%;
 }*/
+
+
+/*主页面 低烧 fTempChart.html tc -----------*/
+
+.tc-body {
+    position: fixed;
+    top: 44px;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.tempInfo .avatar {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-right: 0.18rem;
+}
+
+.tempInfo .avatarBox {
+    margin-left: 0;
+}
+
+.tempInfo .avatarBox .name {
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+}
+
+
+.pieChat {
+    margin: 0.55rem auto 0.85rem auto;
+}
+
+.pieChat {
+    /*大圈*/
+    position: relative;
+    border-radius: 50%;
+    width: 3.19rem;
+    height: 3.19rem;
+}
+.pieChat:before {
+    /*中圈*/
+    content: " ";
+    display: block;
+    width: 2.96rem;
+    height: 2.96rem;
+    z-index: 10;
+}
+.pieChat:after {
+    /*小圈*/
+    content: " ";
+    display: block;
+    width: 2.72rem;
+    height: 2.72rem;
+    z-index: 20;
+}
+/*低温*/
+.pieChat.lowTemp {
+    /*大圈*/
+    background: #ffe3cd
+}
+.pieChat.lowTemp:before {
+    /*中圈*/
+    background: #ffcda5;
+}
+.pieChat.lowTemp:after {
+    /*小圈*/
+    background: #ffb274;
+}
+
+/*正常*/
+.pieChat.normal {
+    /*大圈*/
+    background: #cceaff;
+}
+.pieChat.normal:before {
+    /*中圈*/
+    background: #a3daff;
+}
+.pieChat.normal:after {
+    /*小圈*/
+    background: #72c6ff;
+}
+/*高烧*/
+.pieChat.highTemp {
+    /*大圈*/
+    background: #f7c6c5;
+}
+.pieChat.highTemp:before {
+    /*中圈*/
+    background: #f99e9e;
+}
+.pieChat.highTemp:after {
+    /*小圈*/
+    background: #fb6e6e;
+}
+
+.pieChat:before,
+.pieChat:after,
+.tempNum {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.tempNum {
+    z-index: 30;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.tempNum:before {
+    position: absolute;
+    top: -0.2rem;
+    right: -0.2rem;
+    content: "℃";
+    display: block;
+    font-size: 0.46rem;
+}
+
+.graphTemp .title {
+    margin-bottom: 0.35rem;
+}
+
+.graphTemp .graph, 
+.graphTemp .graph img {
+    width: 100%;
+    /*height: 3.42rem;*/
+}
