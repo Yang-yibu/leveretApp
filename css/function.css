@@ -146,8 +146,11 @@
     height: 0.85rem;
 }
 
-.medicineInfo .caption {
+.medicineInfo .caption,
+.ms .caption {
     width: 1.3rem;
+            flex-shrink: 0;
+    -webkit-flex-shrink: 0;
 }
 
 .medicineInfo .input {
@@ -296,4 +299,68 @@
 .ml .btnBox {
     margin-top: 2.54rem;
     margin-bottom: 0.76rem;
+}
+
+/* 药品详情页面 fMedicineShow (ms) ------------------- */
+.ms {
+    
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.ms-body {
+    -webkit-box-shadow: 0 0 12px #d5ede3;
+        box-shadow: 0 0 12px #d5ede3;
+
+    background: #fff;
+    border-radius: 5px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.83rem;
+    padding-bottom: 0.30rem;
+}
+
+.ms .medicinePic {
+    width: 4.48rem;
+    height: 2.58rem;
+    margin: 0 auto;
+    margin-bottom: 0.49rem;
+    background: #eee;
+}
+.ms .medicinePic img {
+    width: 100%;
+    height: 100%;
+}
+
+.ms .medicineName {
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+    width: 4.84rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    line-height: 0.7rem;
+    text-align: center;
+}
+
+.ms .rectItem {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding: 0;
+    padding-left: 0.1rem;
+    border-top: none;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.ms .rectItem.textArea {
+    margin-top: 0.16rem;
+    padding-top: 0.10rem;
+    height: 1.9rem;
+    border-bottom: none;
+    background: #fbf9f9;
+            align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+
+.ms .rectItem.textArea span {
+    line-height: 0.4rem;
 }
