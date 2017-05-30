@@ -96,8 +96,8 @@ guide --- 引导页样式
     * 备注
     
   fMedicineEdit.html --- 新增药品编辑页面
-    * 备注
-    
+    * 未作
+    * 图标未放
   fChangePassword.html --- 修改密码
     * 备注
     * 使用的是 注册页面的找回密码块，注册面login的css 
