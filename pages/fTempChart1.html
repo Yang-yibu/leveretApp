@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Mui 样式-->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <!-- 功能页样式 -->
+    <link rel="stylesheet" href="../css/function.css" />
+</head>
+
+<body>
+<!--侧滑跟容器-->
+<div class="mui-off-canvas-wrap mui-draggable mui-slide-in mui-active">
+<!--侧滑菜单部分-->
+<aside class="mui-off-canvas-left mui-active">
+    <div class="mui-scroll-wrapper menu">
+        <div class="mui-scroll flex-col">
+            <div class="userInfo flex-col">
+                <img src="../images/avatar.png" alt="" class="avatar" />
+                <span class="f32">昵称</span>
+                <!--积分-->
+                <span class="integral f24">积分100</span>
+            </div>
+            <div class="rectTable">
+                <div class="rectItem bg-f f24">宝宝管理</div>
+                <div class="rectItem f24">宝宝积分</div>
+                <div class="rectItem bg-f f24">设备管理</div>
+                <div class="rectItem f24">报警设置</div>
+                <div class="rectItem bg-f f24">修改密码</div>
+                
+                <!--加减类active控制显示隐藏弹出菜单-->
+                <div id="alert" class=" active rectItem bg-f f24 popUpBox">切换账号
+                        <ul class="rectTable popUp">
+                            <!--弹出菜单-->
+                            <li class="rectItem">账号：1323123444</li>
+                            <li class="rectItem">账号：1323123444</li>
+                            <li class="rectItem">账号：1323123444</li>
+                            <li class="btn">添加账号</li>
+                        </ul>
+                </div>
+                <div class="rectItem bg-f f24">关于我们</div>
+                <div class="rectItem bg-f f24">退出</div>
+                <div class="rectItem bg-f f24"></div>
+            </div>
+            <div class="menu-logo"></div>
+        </div>
+    </div>
+</aside>
+
+<!--侧滑菜单主体部分-->
+<div class="mui-inner-wrap">
+    
+    <div class="mui-backdrop"></div>
+    <!-- 顶部导航 -->
+    <header class="mui-action-menu mui-bar mui-bar-nav bg-theme top-nav flex-row justify">
+        <div class="navLeft flex-row">
+            <div class="avatar">
+                <img class="mui-action-menu" src="../images/avatar.png" alt="" />
+            </div>
+            <div class="avatarBox c-f flex-col justify">
+                <div class="name">昵称</div>
+                <div class="age">积分100</div>
+            </div>
+        </div>
+        <div class="navCenter logo"></div>
+        <div class="navRight c-f">返回</div>
+    </header>
+    <!-- end 顶部导航 -->
+    
+    <div class="mui-content boxSizing tc">
+        <div class="tc-body bg-f">
+            <div class="void40"></div>
+            
+            <!--温度饼图 lowTemp低温 normal正常  highTepm高温 -->
+            <div class="pieChat1"></div>
+            
+            <!--宝宝相关-->
+            <div class="rectItem bor-bot flex-row justify">
+                <div class="avatarBox flex-row">
+                    <img class="avatar" src="../images/avatar.png"/>
+                    <span class="name f28">瑞瑞</span>
+                </div>
+                <span class="f24 c-c1">HK01-1358</span>
+            </div>
+            
+            <!--室内温湿度-->
+            <div class="indoor flex-row justify">
+                <div class="temp f28">
+                    <div>室内温度</div>
+                    <div class="f44 c-e8 center">0&#8451;</div>
+                </div>
+                <div class="humidity f28">
+                    <div>室内湿度</div>
+                    <div class="f44 c-e8 center">0&#8451;</div>
+                </div>
+            </div>
+            
+            <!--曲线图graph-->
+            <div class="graphTemp">
+                <div class="title f28">体温曲线图</div>
+                <div class="graph">
+                    <img src="../images/graphTemp.png" alt="" />
+                </div>
+            </div>
+            
+            <div class="void100"></div>
+            <div class="void100"></div>
+            
+        </div>
+    </div>
+    <!--底部导航-->
+    <div class="botnav flex-row f32 justify">
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>服药
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>药店
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>温度
+            </span>
+        </div>
+        <div class="currentNav botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>资讯
+            </span>
+        </div>
+        <div class="botnavItem flex-col">
+            <span class="flex-row">
+                <i class="icon"></i>社区
+            </span>
+        </div>
+    </div>
+    <!--end 底部导航-->
+    
+    </div>
+</div>
+    
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    -mui.init();
+    
+</script>
+
+</html>

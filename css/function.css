@@ -412,6 +412,14 @@
     font-size: 10px;
 }
 
+.navCenter {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .navRight {
     position: relative;
     font-size: 16px;
@@ -610,11 +618,12 @@
 /*主页面 低烧 fTempChart.html tc -----------*/
 
 .tc-body {
+    overflow: auto;
     position: fixed;
     top: 44px;
     bottom: 0;
     width: 100%;
-    background: #fff;
+    /*background: #fff;*/
     padding-left: 0.32rem;
     padding-right: 0.32rem;
 }
@@ -740,4 +749,68 @@
 .graphTemp .graph img {
     width: 100%;
     /*height: 3.42rem;*/
+}
+
+/*温度*/
+.mui-bar .logo {
+    width: 0.85rem;
+    height: 100%;
+    background: url(../images/logoW.png) no-repeat center;
+    background-size: 0.85rem;
+}
+
+.tc-body .rectItem {
+    margin-left: -0.32rem;
+    margin-right: -0.32rem;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+    background: #fff;
+}
+
+.tc-body .rectItem .avatar {
+    width: 0.52rem;
+    height: 0.52rem;
+}
+
+.tc-body .rectItem .avatarBox {
+            align-items: center;
+    -webkit-align-items: center;
+
+}
+.tc-body .rectItem .avatar {
+    margin-right: 0.32rem;
+}
+
+.indoor {
+    margin-top: 0.37rem;
+    margin-bottom: 0.37rem;
+}
+
+.pieChat1 {
+    width: 3rem;
+    height: 3rem;
+    background: url(../images/images/images/temp.png) no-repeat center;
+    background-size: 3rem 3rem;
+    margin: 0.66rem auto 0.42rem;
+}
+
+/*数据分析 (data) dataAnlyze.html --------------- */
+.data-icon:before {
+    content: " ";
+    display: block;
+    width: 0.39rem;
+    height: 0.39rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0.39rem 0.39rem;
+}
+
+.data-icon.haveTemp:before {
+    background-image: url(../images/icon-hight.png);
+}
+.data-icon.haveTime:before {
+    background-image: url(../images/icon-clock.png);
+}
+.data-icon.haveNum:before {
+    background-image: url(../images/icon-have.png);
 }

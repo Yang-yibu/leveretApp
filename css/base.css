@@ -66,6 +66,7 @@ body {
 
 /*----- 设置字体
  * 按照 750px 设计稿测量 换算成响应的 rem -----*/
+
 .f24 {
     font-size: 0.24rem;
 }
@@ -86,6 +87,9 @@ body {
 }
 .f34 {
     font-size: 0.34rem;
+}
+.f44 {
+    font-size: 0.44rem;
 }
 
 /*----- 设置字体 end -----*/
@@ -164,6 +168,10 @@ body {
     /*红色*/
     color: #ff0000;
 }
+ .c-e8{
+     /*红橙色*/
+     color: #e87654;
+ }
 
 
 /*----- 颜色 end -----*/
@@ -361,3 +369,101 @@ i {
 /*end 底部导航*/
 
 
+/*侧滑菜单*/
+.mui-off-canvas-left {
+    width: 3rem;
+}
+.menu {
+    background: #f6f8f7;
+}
+
+.menu .userInfo {
+    margin-top: 0.44rem;
+}
+.menu .avatar {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-bottom: 0.24rem;
+}
+.menu .integral {
+    margin-top: 0.17rem;
+    margin-bottom: 0.4rem;
+}
+
+.menu .rectTable {
+    width: 100%;
+}
+
+.menu .rectItem {
+    line-height: 0.8rem;
+    text-align: center;
+}
+.menu .menu-logo {
+    width: 0.86rem;
+    height: 0.6rem;
+    background: url(../images/gLogo.png) no-repeat center;
+    background-size: 0.86rem;
+}
+
+.mui-scroll-wrapper {
+    overflow: visible;
+}
+
+.popUpBox {
+    position: relative;
+}
+
+.popUp:before {
+    position: absolute;
+    top: 50%;
+    left: -0.16rem;
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0.16rem solid transparent;
+    border-right: 0.16rem solid #45D276;
+    border-bottom: 0.16rem solid transparent;
+}
+
+.active .popUp.rectTable {
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.popUp.rectTable {
+    transition: all 1s;
+    position: absolute;
+    z-index: 30;
+    left: 100%;
+    top: 50%;
+            transform: translateY(400%);
+    -webkit-transform: translateY(400%);
+
+    width: 3.47rem;
+    padding: 0.19rem 0.3rem;
+    border-radius: 10px;
+    background: #faf9f9;
+}
+
+.popUp.rectTable .rectItem {
+    padding: 0;
+    height: 0.55rem;
+    line-height: 0.55rem;
+    border-top: 0;
+    border-bottom: 1px solid #e7e7e7;
+    text-align: left;
+}
+
+.popUp.rectTable .btn {
+    margin-top: 0.09rem;
+    width: 1.4rem;
+    height: 0.4rem;
+    border: 1px solid #45D276;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #45D276;
+    float: right;
+}

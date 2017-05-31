@@ -75,20 +75,27 @@ guide --- 引导页样式
     * 备注
     * 开关使用的mui原生开关
   
-  fPersonSet.html --- 点击头像后，出现侧滑页面(个人中心)
-  f 切换账号页 小框
-  
-  fMedicineIndex.html --- 服药功能主界面
-    * 备注
-    
   fContactUs.html --- 联系我们
     * 未作
     * 左侧小图标
   
   fDataAnalyze.html --- 数据分析(图标)
+    * 备注
+    * &#8451; 摄氏度符号
   
   fTempChart.html --- 温度(图表)
   f 主页面低烧 高烧 正常
+
+
+
+  f 点击头像后，出现侧滑页面(个人中心)  
+  f 服药功能主界面
+  fTempChart1.html --- 温度(图表)
+    * 备注
+    * 侧滑菜单 向左滑出
+    * 蒙版  mui-backrop 默认显示
+    * 切换账号 加减 类 active 控制显示隐藏
+    
   
   fInfoList.html --- 消息界面1(列表)
     * 备注
@@ -99,6 +106,7 @@ guide --- 引导页样式
   fMedicineEdit.html --- 新增药品编辑页面
     * 未作
     * 图标未放
+
   fChangePassword.html --- 修改密码
     * 备注
     * 使用的是 注册页面的找回密码块，注册面login的css 
