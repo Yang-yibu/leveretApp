@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+</head>
+
+<body>
+
+    <div class="login">
+        <div class="login-body">
+            <div class="logo flex-col">
+                <img src="../images/gLogo.png"/>
+                <p class="f24">LOGO名</p>
+            </div>
+            
+            <!-- 输入账号区 -->
+            <form class="inputBox">
+                <div class="mui-input-row boxSizing f28 flex-row">
+                    <label>账户：</label>
+                    <input type="text" class="mui-input-clear f24" placeholder="手机号登入">
+                </div>
+                <div class="mui-input-row boxSizing f28 flex-row">
+                    <label>密码：</label>
+                    <input type="password" class="mui-input-password f24" placeholder="请输入密码">
+                </div>
+                
+                <!-- 自动登录 -->
+                <div class="flex-row radio mui-radio mui-left f24">
+                    <input name="radio1" type="radio" />
+                    <label class="c-c1">自动登录</label>
+                </div>
+                <!-- end 自动登录 -->
+                
+                <div class="btnBox">
+                    <button type="button" class="mui-btn btn bg-theme c-f">登录</button>
+                </div>
+                
+                <div class="selLogin f24 flex-row justify">
+                    <a href="javascript:void(0);" class="c-c1">新用户注册</a>
+                    <a href="javascript:void(0);" class="c-c1">密码找回</a>
+                </div>
+            </form>
+            
+            <!-- end 输入账号区 -->
+            
+            <div class="thirdParty">
+                <div class="cutOff flex-row"></div>
+                
+                <div class="thirdIcon flex-row justify">
+                    <a href="javascript:void(0);" class="item weChat"></a>
+                    <a href="javascript:void(0);" class="item sina"></a>
+                    <a href="javascript:void(0);" class="item qq"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init()
+</script>
+
+</html>

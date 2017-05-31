@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Mui 样式-->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <!-- 功能页样式 -->
+    <link rel="stylesheet" href="../css/function.css" />
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header class="mui-bar mui-bar-nav bg-theme top-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">药品设置</h1>
+    </header>
+    <!-- 头部导航 end -->
+    
+    <div class="mui-content me">
+        
+        <div class="void48"></div>
+        
+        <form class="medicineInfo boxSizing" action="">
+            <div class="infoItem flex-row">
+                <div class="caption f26 c-40">药品编码</div>
+                <div class="input">
+                    <input class="f26" type="text" value="" />
+                </div>
+                <div class="icon-camera"></div>
+            </div>
+            <div class="infoItem flex-row">
+                <div class="caption f26 c-40">通用名称</div>
+                <div class="input">
+                    <input class="f26" type="text" value="" />
+                </div>
+            </div>
+            <div class="infoItem flex-row">
+                <div class="caption f26 c-40">生产厂家</div>
+                <div class="input">
+                    <input class="f26" type="text" value="" />
+                    <div class="icon-triangle"></div>
+                </div>
+            </div>
+            <div class="infoItem flex-row">
+                <div class="caption f26 c-40">制剂类型</div>
+                <div class="input">
+                    <input class="f26" type="text" value="" />
+                    <div class="icon-triangle"></div>
+                </div>
+            </div>
+            <div class="infoItem flex-row">
+                <div class="caption f26 c-40">药品单位</div>
+                <div class="input">
+                    <input class="f26" type="text" value="" />
+                    <div class="icon-triangle"></div>
+                </div>
+            </div>
+            <div class="infoItem flex-row">
+                <div class="caption f26 c-40">单位规格</div>
+                <div class="input">
+                    <input class="f26" type="text" value="" />
+                </div>
+                <div class="input2">
+                    <input class="f26" type="text" value="" />
+                    <div class="icon-triangle"></div>
+                </div>
+            </div>
+            <div class="infoItem areaBox">
+                <div class="caption f26 c-40">使用禁忌</div>
+                <div class="textArea">
+                    <textarea class="f26" name="" rows="" cols=""></textarea>
+                </div>
+            </div>
+        </form>
+        
+        <!-- 提交按钮 -->
+        <div class="btnBox flex-row justify">
+            <button type="button" class="mui-btn btn bg-f c-45d boxSizing">清空</button>
+            <button type="button" class="mui-btn btn bg-theme c-f">保存</button>
+        </div>
+        <!--提交按钮 end -->
+        
+    </div>
+    
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init()
+</script>
+
+</html>

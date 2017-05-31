@@ -7,7 +7,8 @@
 .selDevice {
     margin-top: 0.92rem;
     margin-bottom: 1.2rem;
-    box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 .selDevice div {
     background: #fff;
@@ -82,7 +83,7 @@
     padding-top: 0.7rem;
     border-radius: 5px;
     -webkit-box-shadow: 0 0 12px #d5ede3;
-        box-shadow: 0 0 12px #d5ede3;
+            box-shadow: 0 0 12px #d5ede3;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 
@@ -194,7 +195,7 @@
     width: 2.4rem;
     border: 1px solid #45d276;
     -webkit-box-shadow: 0 0 12px #d5ede3;
-        box-shadow: 0 0 12px #d5ede3;
+            box-shadow: 0 0 12px #d5ede3;
 
 }
 

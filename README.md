@@ -70,40 +70,77 @@ guide --- 引导页样式
 
 * f --- 主功能页面 function
   fSetWarning.html --- 报警设置
-  
-  fPersonSet.html --- 点击头像后，出现侧滑页面(个人中心)
-  f 切换账号页 小框
-  
-  fMedicineIndex.html --- 服药功能主界面
+    * 未作
+    * 提醒设置 弹窗未作
+    * 备注
+    * 开关使用的mui原生开关
   
   fContactUs.html --- 联系我们
+    * 未作
+    * 左侧小图标
   
   fDataAnalyze.html --- 数据分析(图标)
+    * 备注
+    * &#8451; 摄氏度符号
   
   fTempChart.html --- 温度(图表)
   f 主页面低烧 高烧 正常
+
+
+
+  f 点击头像后，出现侧滑页面(个人中心)  
+  f 服药功能主界面
+  fTempChart1.html --- 温度(图表)
+    * 备注
+    * 侧滑菜单 向左滑出
+    * 蒙版  mui-backrop 默认显示
+    * 切换账号 加减 类 active 控制显示隐藏
+    
   
   fInfoList.html --- 消息界面1(列表)
-  
+    * 备注
+    
   fInfoDetails.html --- 消息界面2(消息详情)
-  
+    * 备注
+    
   fMedicineEdit.html --- 新增药品编辑页面
-  
+    * 未作
+    * 图标未放
+
   fChangePassword.html --- 修改密码
-  
+    * 备注
+    * 使用的是 注册页面的找回密码块，注册面login的css 
+    * 未作
+    * 提交失败(黑色弹窗)
   fMedicineList.html --- 药品目录页面
-  
+    * 备注
+    * 
   fMedicineShow.html --- 药品详情页面
 
 * l --- 注册页面 login
   lLogin.html --- 登陆界面
+    * 未作
+    * 用户名不存在 (黑色弹窗)
+    * 备注
+    * 输入框 flex-shrink 定义缩小比例
   
   lSignIn.html --- 注册界面
+    * 未作
+    * 该手机号已注册 (黑色弹框)
+    * 备注
+    * 输入框 flex-shrink 定义缩小比例
   lFindPassword.html --- 找回密码
+    * 未作
+    * 请输入正确的手机号 (黑色弹框)
   
-  lAddAvatar.html --- 头像设置
-  
+  lAddAvatar.html --- 头像设置/添加
+    * 备注
+    
   lAvatarEdit.html --- 头像编辑
+    * 备注
+    * 
   
   lSigninSuc.html --- 注册成功
-  l 找回成功
+  lFindSuc.html --- 找回成功
+
+哈哈哈 我是测试checkout 检出出错的

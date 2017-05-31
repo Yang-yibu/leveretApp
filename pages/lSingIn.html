@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- MUI CSS -->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    
+    <!-- 注册页面样式 -->
+    <link rel="stylesheet" href="../css/login.css" />
+</head>
+
+<body>
+
+    <div class="sign">
+        <div class="sign-body">
+            <div class="logo flex-col">
+                <img class="avatar" src="../images/avatar.png"/>
+                <p class="f24">点击上传头像</p>
+            </div>
+            
+            <!-- 输入账号区 -->
+            <form class="inputBox">
+                <div class="mui-input-row boxSizing f28 flex-row">
+                    <label>账户：</label>
+                    <input type="text" class="mui-input-clear f24" placeholder="手机注册">
+                </div>
+                <div class="mui-input-row boxSizing f28 flex-row">
+                    <label>验证码：</label>
+                    <input type="text" class="f24" placeholder="">
+                    <button type="button" class="mui-btn btn bg-theme f24 c-f">获取验证码</button>
+                </div>
+                <div class="mui-input-row boxSizing f28 flex-row">
+                    <label>密码：</label>
+                    <input type="password" class="mui-input-password f24" placeholder="不少于六位数">
+                </div>
+                <div class="mui-input-row boxSizing f28 flex-row">
+                    <label>确认密码：</label>
+                    <input type="password" class="mui-input-password f24" placeholder="不少于六位数">
+                </div>
+                
+                <!-- 自动登录 同意服务条款 -->
+                <div class="flex-row radio mui-radio mui-left f24">
+                    <input name="radio1" type="radio" />
+                    <label class="c-c1">同意服务条款</label>
+                </div>
+                <!-- end 自动登录 同意服务条款 -->
+                
+                <!-- 提交按钮 -->
+                <div class="btnBox flex-row justify">
+                    <button type="button" class="mui-btn btn c-45d">上一步</button>
+                    <button type="button" class="mui-btn btn bg-theme c-f">确认注册</button>
+                </div>
+                <!-- end 提交按钮 -->
+            </form>
+            <!-- end 输入账号区 -->
+            
+
+        </div>
+    </div>
+
+
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init()
+</script>
+
+</html>

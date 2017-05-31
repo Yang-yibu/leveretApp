@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- MUI CSS -->
+    <link href="../css/mui.min.css" rel="stylesheet" />
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/base.css" />
+    
+    <!-- 注册页面样式 -->
+    <link rel="stylesheet" href="../css/login.css" />
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header class="mui-bar mui-bar-nav top-nav nav-white">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">头像编辑</h1>
+    </header>
+    <!-- 头部导航 end -->
+    
+    <div class="ae">
+        <div class="ae-body">
+            
+            <div class="ae-icon flex-row justify">
+                <div class="loop"></div>
+                <div class="zoom"></div>
+            </div>
+            
+            <!-- 镂空遮罩 -->
+            <div id="imgBox" class="hollowBox">
+                <!--<div id="imgHollow" class="img" style="background-image: url(../images/121.jpg);"></div>-->
+                <div class="hollow"></div>
+                <img id="imgHollow" src="../images/121.jpg"/>
+            </div>
+            <!-- end 镂空遮罩 -->
+            
+            <!-- 提交按钮 -->
+            <div class="btnBox flex-row justify">
+                <button type="button" class="mui-btn btn c-45d">修改</button>
+                <button type="button" class="mui-btn btn bg-theme c-f">完成</button>
+            </div>
+            <!-- end 提交按钮 -->
+
+        </div>
+    </div>
+
+
+</body>
+
+<script src="../js/mui.min.js"></script>
+<script type="text/javascript">
+    mui.init();
+    
+    /* 初始化图片自适应 -------------------------------------- */
+    var imgHol = document.getElementById('imgHollow');
+    var imgBox = document.getElementById('imgBox');
+    var scale  = imgBox.offsetWidth / imgBox.offsetHeight;
+    var imgW   = imgHol.offsetWidth;
+    var imgH   = imgHol.offsetHeight;
+    console.log(imgW, imgH)
+    if (imgW/imgH >= scale ) {
+        imgHol.style.height = 100 + '%' ;
+    } else {
+        imgHol.style.width = 100 + '%' ;
+    }
+    /* 初始化突变自适应 end --------------------------------- */ 
+    
+</script>
+
+</html>

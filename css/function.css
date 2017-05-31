@@ -1,0 +1,816 @@
+
+/* 报警设置 warn-------------- */
+.warn .title {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-top: 0.45rem;
+}
+
+.warn .noBor {
+    border-bottom: 0;
+}
+
+.warn .temp {
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    width: 0.62rem;
+    height: 0.64rem;
+    border-radius: 5px;
+    background-color: #eee;
+    text-align: center;
+    line-height: 0.68rem;
+}
+.warn .time {
+    width: 1.16rem;
+}
+
+.warn .rectItem .btn {
+    width: 1.7rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    padding: 0;
+}
+
+.warn .btnBox {
+    margin-top: 2.8rem;
+}
+
+
+/* 联系我们 cu（关于我们 contactUs）*/
+.cu .info img{
+    width: 1.8rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+.cu .info .version {
+    /* 版本号 */
+    margin-top: 0.26rem;
+    margin-bottom: 0.16rem;
+}
+
+.cu .info .btn {
+    width: 1.62rem;
+    height: 0.5rem;
+    border: 1px solid #45D276;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    line-height: 0.5rem;
+}
+
+.cu .rectItem .icon {
+    margin-right: 0.28rem;
+}
+
+.cu .rectItem {
+    padding-right: 0.34rem;
+}
+
+.cu .icon {
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    background: #45D276;
+    -webkit-box-shadow: 0 0 12px #d5ede3;
+        box-shadow: 0 0 12px #d5ede3;
+}
+
+/* 消息列表  il (fInfoList.html) ------- */
+
+.il .radio,
+.mi .radio{
+            flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    margin-right: 0.18rem;
+    width: 0.20rem;
+    height: 0.20rem;
+    border-radius: 50%;
+    border: 1px solid #45D276;
+}
+.mi .radio {
+    margin-right: 0.09rem;
+}
+
+.il .radio:before,
+.mi .radio:before {
+    margin: 0 auto;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0.10rem;
+    height: 0.10rem;
+    background: #45D276;
+}
+
+.il .rectItem .brief {
+    /*简要消息*/
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+            flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+
+}
+
+/*消息界面 -- 服药功能界面*/
+.il .sel .radio, 
+.il .sel .radio {
+    border-color: #b9b9b9;
+}
+.mi .sel .radio:before {
+    display: none;
+}
+.il .sel .brief{
+    color: #b9b9b9;
+}
+
+/* 消息提醒2 fInfoDetail.html --------- */
+
+.il .infoItem {
+    position: relative;
+    max-width: 5.08rem;
+    background: #fff;
+    padding: 0.28rem 0.3rem;
+    border-radius: 20px;
+}
+.il .infoItem:before {
+    position: absolute;
+    bottom: -0.1rem;
+    left: -0.15rem;
+    content: ' ';
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url(../images/wei.png) no-repeat center;
+    background-size: cover;
+}
+
+/* 新增药品编辑页面 MedicineEdit.html(me)--------------------*/
+.medicineInfo {
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.medicineInfo .infoItem {
+    height: 0.85rem;
+}
+
+.medicineInfo .caption,
+.ms .caption {
+    width: 1.3rem;
+            flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+
+.medicineInfo .input {
+    /*input 框占满剩下的区域*/
+            flex: 1;
+    -webkit-flex: 1;
+    position: relative;
+}
+
+.medicineInfo .input2 {
+    position: relative;
+    width: 2.33rem;
+    margin-left: 0.12rem;
+}
+
+.medicineInfo input {
+    background: #fff;
+    border-radius: 5px;
+    height: 0.55rem;
+    line-height: 0.55rem;
+}
+
+.medicineInfo .icon-camera {
+    width: 0.38rem;
+    height: 0.38rem;
+    margin-left: 0.18rem;
+    margin-right: 0.18rem;
+    background: red;
+}
+
+.medicineInfo .infoItem .icon-triangle {
+    position: absolute;
+    right: 0.22rem;
+    top: 50%;
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 0.14rem solid transparent;
+    border-right: 0.14rem solid transparent;
+    border-top: 0.14rem solid #45D276;
+}
+
+.infoItem.areaBox {
+    display:         flex;
+    display: -webkit-flex;
+    height: auto;
+    padding-top: 0.15rem;
+}
+
+.infoItem.areaBox .caption {
+    padding-top: 0.14rem;
+}
+
+.infoItem.areaBox .textArea {
+            flex: 1;
+    -webkit-flex: 1;
+}
+
+.infoItem.areaBox textarea {
+    min-height: 2.26rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.me .btnBox {
+    margin-top: 0.9rem;
+}
+
+.me .btnBox .btn:first-child,
+.ml .btnBox .btn:first-child {
+    border: 1px solid #45D276;
+}
+
+.me .btn,
+.ml .btn {
+    width: 2.42rem;
+}
+
+/* 药品目录 medicineList ml ------------ */
+
+.ml .search-box {
+    margin-top: 0.24rem;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+    height: 0.9rem;
+    border-top: 1px solid #e7e7e7;
+    background: #fff;
+}
+
+.ml .search-box .mui-icon {
+    font-size: 17px;
+}
+
+.mui-icon-search:before {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.ml .search-box .search {
+    background: #e5e5e5;
+    width: 100%;
+    height: 0.56rem;
+    border-radius: 5px;
+}
+
+.search.mui-input-row .mui-icon-clear {
+    width: auto;
+    height: auto;
+    right: 5px;
+    top: 50%;
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.ml .rectItem {
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.ml .rectItem .btnBox {
+    width: 0.96rem;
+    height: 0.42rem;
+    margin: 0;
+}
+.ml .rectItem .btn {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: transparent;
+}
+
+.ml .icon-suc {
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-left: 0.1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ml .sel .icon-suc {
+    background-image: url(../images/success.png);
+}
+
+.ml .btnBox {
+    margin-top: 2.54rem;
+    margin-bottom: 0.76rem;
+}
+
+/* 药品详情页面 fMedicineShow (ms) ------------------- */
+.ms {
+    
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.ms-body {
+    -webkit-box-shadow: 0 0 12px #d5ede3;
+        box-shadow: 0 0 12px #d5ede3;
+
+    background: #fff;
+    border-radius: 5px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.83rem;
+    padding-bottom: 0.30rem;
+}
+
+.ms .medicinePic {
+    width: 4.48rem;
+    height: 2.58rem;
+    margin: 0 auto;
+    margin-bottom: 0.49rem;
+    background: #eee;
+}
+.ms .medicinePic img {
+    width: 100%;
+    height: 100%;
+}
+
+.ms .medicineName {
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+    width: 4.84rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    line-height: 0.7rem;
+    text-align: center;
+}
+
+.ms .rectItem {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding: 0;
+    padding-left: 0.1rem;
+    border-top: none;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.ms .rectItem.textArea {
+    margin-top: 0.16rem;
+    padding-top: 0.10rem;
+    height: 1.9rem;
+    border-bottom: none;
+    background: #fbf9f9;
+            align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+
+.ms .rectItem.textArea span {
+    line-height: 0.4rem;
+}
+
+
+/* 服药功能主页面 medicineIndex mi ------------ */
+.mui-bar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navLeft {
+    height: 32px;
+}
+
+.navLeft .avatar {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+.navLeft .avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.avatarBox {
+    margin-left: 5px;
+    height: 100%;
+            align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+
+.avatarBox .name {
+    line-height: 16px;
+    font-size: 16px;
+}
+
+.avatarBox .age {
+    line-height: 10px;
+    font-size: 10px;
+}
+
+.navCenter {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navRight {
+    position: relative;
+    font-size: 16px;
+}
+.navRight.redDot:before {
+    position: absolute;
+    top: 0;
+    right:0;
+    content: " ";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: red;
+}
+
+.mui-bar-nav.mui-bar .mui-icon {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.mi1.rectItem {
+    position: relative;
+    height: 0.9rem;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+    line-height: 0.9rem;
+}
+.sel.rectItem {
+    color: #a1a1a1;
+}
+
+.mi .rectItem .time {
+    width: 1.52rem;
+}
+
+.mi .medicineName {
+    margin-right: 0.52rem;
+    width: 1.7rem;
+    line-height: 0.36rem;
+}
+
+.iconBox {
+    position: absolute;
+    right: 0.32rem;
+    width: 45px;
+}
+
+.iconBox .icon {
+    width: 11px;
+    height: 11px;
+    margin-right: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 11px 11px;
+}
+
+/*对勾*/
+.icon.suc {
+    background-color: transparent;
+    background-image: url(../images/suc.png);
+}
+/*震动*/
+.icon.shake {
+    background-image: url(../images/shake.png);
+    background-color: transparent;
+    
+}
+/*备注*/
+.icon.remark {
+    background-color: transparent;
+    background-image: url(../images/remark.png);
+}
+/*声音*/
+.icon.volume {
+    background-color: transparent;
+    background-image: url(../images/volume.png);
+}
+/*钟表*/
+.icon.clock {
+    background-color: transparent;
+    background-image: url(../images/clock.png);
+}
+/*静音*/
+.icon.mute {
+    background-color: transparent;
+    background-image: url(../images/mute.png);
+}
+
+
+.countDown {
+    position: relative;
+    font-size: 14px;
+}
+.countDown > div {
+    position: absolute;
+    right: 0.32rem;
+    top: 50%;
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.countDown .icon {
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mi .btnBox {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.mi .btn {
+    width: 2.30rem;
+}
+.mi .btn:before {
+    margin-right: 3px;
+    margin-top: -1px;
+    content: "+";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    color: #fff;
+}
+.mi .btn:last-child:before {
+    content: "-";
+}
+
+/*历史服药记录*/
+.historyItem {
+    position: relative;
+    padding-left: 0.6rem;
+    padding-right: 0.5rem;
+}
+.historyItem .time {
+    padding-top: 0.32rem;
+    color: #d8d9d8;
+}
+
+.historyItem .mainString {
+    position: absolute;
+    left: 0.32rem;
+    top: 0.50rem;
+    width: 6px;
+    height: 100%;
+}
+.historyItem .mainS {
+    position: relative;
+    height: 100%;
+}
+.historyItem .mainS:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ' ';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #45D276;
+    border-radius: 50%;
+}
+.historyItem .mainS:after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    content: ' ';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #45D276;
+}
+/*.historyItem .mainString {
+    position: absolute;
+    top: 0.18rem;
+    left: 0.32rem;
+    height: 100%;
+    width: 1px;
+    background: #45D276;
+}
+.historyItem .mainString:before {
+    content: ' ';
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #45D276;
+    border-radius: 50%;
+}*/
+
+
+/*主页面 低烧 fTempChart.html tc -----------*/
+
+.tc-body {
+    overflow: auto;
+    position: fixed;
+    top: 44px;
+    bottom: 0;
+    width: 100%;
+    /*background: #fff;*/
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.tempInfo .avatar {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-right: 0.18rem;
+}
+
+.tempInfo .avatarBox {
+    margin-left: 0;
+}
+
+.tempInfo .avatarBox .name {
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+}
+
+
+.pieChat {
+    margin: 0.55rem auto 0.85rem auto;
+}
+
+.pieChat {
+    /*大圈*/
+    position: relative;
+    border-radius: 50%;
+    width: 3.19rem;
+    height: 3.19rem;
+}
+.pieChat:before {
+    /*中圈*/
+    content: " ";
+    display: block;
+    width: 2.96rem;
+    height: 2.96rem;
+    z-index: 10;
+}
+.pieChat:after {
+    /*小圈*/
+    content: " ";
+    display: block;
+    width: 2.72rem;
+    height: 2.72rem;
+    z-index: 20;
+}
+/*低温*/
+.pieChat.lowTemp {
+    /*大圈*/
+    background: #ffe3cd
+}
+.pieChat.lowTemp:before {
+    /*中圈*/
+    background: #ffcda5;
+}
+.pieChat.lowTemp:after {
+    /*小圈*/
+    background: #ffb274;
+}
+
+/*正常*/
+.pieChat.normal {
+    /*大圈*/
+    background: #cceaff;
+}
+.pieChat.normal:before {
+    /*中圈*/
+    background: #a3daff;
+}
+.pieChat.normal:after {
+    /*小圈*/
+    background: #72c6ff;
+}
+/*高烧*/
+.pieChat.highTemp {
+    /*大圈*/
+    background: #f7c6c5;
+}
+.pieChat.highTemp:before {
+    /*中圈*/
+    background: #f99e9e;
+}
+.pieChat.highTemp:after {
+    /*小圈*/
+    background: #fb6e6e;
+}
+
+.pieChat:before,
+.pieChat:after,
+.tempNum {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.tempNum {
+    z-index: 30;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #fff;
+    font-size: 0.9rem;
+}
+.tempNum:before {
+    position: absolute;
+    top: -0.2rem;
+    right: -0.2rem;
+    content: "℃";
+    display: block;
+    font-size: 0.46rem;
+}
+
+.graphTemp .title {
+    margin-bottom: 0.35rem;
+}
+
+.graphTemp .graph, 
+.graphTemp .graph img {
+    width: 100%;
+    /*height: 3.42rem;*/
+}
+
+/*温度*/
+.mui-bar .logo {
+    width: 0.85rem;
+    height: 100%;
+    background: url(../images/logoW.png) no-repeat center;
+    background-size: 0.85rem;
+}
+
+.tc-body .rectItem {
+    margin-left: -0.32rem;
+    margin-right: -0.32rem;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+    background: #fff;
+}
+
+.tc-body .rectItem .avatar {
+    width: 0.52rem;
+    height: 0.52rem;
+}
+
+.tc-body .rectItem .avatarBox {
+            align-items: center;
+    -webkit-align-items: center;
+
+}
+.tc-body .rectItem .avatar {
+    margin-right: 0.32rem;
+}
+
+.indoor {
+    margin-top: 0.37rem;
+    margin-bottom: 0.37rem;
+}
+
+.pieChat1 {
+    width: 3rem;
+    height: 3rem;
+    background: url(../images/images/images/temp.png) no-repeat center;
+    background-size: 3rem 3rem;
+    margin: 0.66rem auto 0.42rem;
+}
+
+/*数据分析 (data) dataAnlyze.html --------------- */
+.data-icon:before {
+    content: " ";
+    display: block;
+    width: 0.39rem;
+    height: 0.39rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0.39rem 0.39rem;
+}
+
+.data-icon.haveTemp:before {
+    background-image: url(../images/icon-hight.png);
+}
+.data-icon.haveTime:before {
+    background-image: url(../images/icon-clock.png);
+}
+.data-icon.haveNum:before {
+    background-image: url(../images/icon-have.png);
+}

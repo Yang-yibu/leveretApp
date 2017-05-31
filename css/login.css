@@ -1,0 +1,367 @@
+/* 公共样式 */
+.nav-white .mui-title, 
+.nav-white .mui-icon-left-nav, 
+.nav-white .mui-btn-link{
+    color: #404040;
+}
+
+.nav-white.mui-bar-nav {
+    background: #fff;
+            box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/* 登陆界面 -----------------*/
+.login,
+.sign,
+.aa,
+.ae,
+.suc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    overflow: auto;
+}
+
+.login-body {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.login .logo img {
+    height: 1.24rem;
+    margin-top: 0.9rem;
+}
+.login .logo p {
+    margin-top: 0.7rem;
+    margin-bottom: 1.1rem;
+    color: #9f9f9f;
+}
+
+.inputBox {
+    width: 5.4rem;
+    margin: 0 auto;
+}
+
+.inputBox .mui-input-row {
+    height: 0.72rem;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 0.2rem;
+}
+
+.inputBox .mui-input-row label {
+    width: auto;
+    padding: 0;
+    padding-right: 0.15rem;
+            flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+}
+.inputBox .mui-input-row input {
+    /*width: auto;*/
+   /*background: red;*/
+            /*flex-shrink: 1;
+    -webkit-flex-shrink: 1;*/
+
+}
+
+.inputBox .mui-input-row .mui-icon {
+    width: 0.40rem;
+    height: 0.40rem;
+    top: 50%;
+            transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    font-size: 0.4rem;
+}
+
+.inputBox .radio {
+    margin-top: 0.3rem;
+}
+
+.inputBox .radio input[type = radio] {
+    left: -7px;
+    top: -2px;
+}
+
+.inputBox .btnBox {
+    margin-top: 0.56rem;
+}
+
+.thirdParty {
+    width: 5.4rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cutOff {
+    position: relative;
+    margin-top: 1.3rem;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid #c9c9c9;
+}
+
+.cutOff:before {
+    content: 'OR';
+    display: block;
+    position: absolute;
+    left: 50%;
+            transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin-top: -1px;
+    width: 0.64rem;
+    background: #fff;
+    text-align: center;
+    color: #c9c9c9;
+    font-size: 0.24rem;
+
+}
+
+.thirdIcon {
+    padding: 0 0.9rem
+}
+
+.thirdIcon .item {
+    display: block;
+    width: 0.78rem;
+    height: 0.78rem;
+    background-repeat: no-repeat;
+    background-size: 0.78rem 0.78rem;
+}
+
+.weChat { 
+    background-image: url(../images/weChat.png);
+}
+.sina { 
+    background-image: url(../images/sina.png);
+}
+.qq { 
+    background-image: url(../images/qq.png);
+}
+
+/* 注册界面 -------------------- */
+
+.sign .logo img {
+    margin-top: 1.4rem;
+}
+
+.sign .logo p {
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.sign .mui-input-row .btn {
+    width: auto;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    padding: 0 15px;
+}
+
+.sign .btnBox .btn {
+    width: 2.4rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 0.8rem;
+}
+
+.sign .btnBox .btn:first-child {
+    border: 1px solid #48d286;
+}
+
+.sign .btnBox {
+    margin-top: 1.4rem;
+}
+
+/* 头像设置 aa(addAvatar) ---------------------*/
+.aa .logo {
+    margin-top: 3.35rem;
+    margin-bottom: 1.54rem;
+}
+.addImg {
+    position: relative;
+    width: 2.5rem;
+    height: 1rem;
+    border: 1px solid #43d274;
+    border-radius: 5px;
+    margin-bottom: 0.35rem;
+}
+.addImg:before,
+.addImg:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: ' ';
+    display: block;
+    width: 0.1rem;
+    height: 0.5rem;
+    border-radius: 0.05rem;
+    background: #43d274;
+}
+
+.addImg:after {
+    width: 0.5rem;
+    height: 0.1rem;
+}
+
+/* 头像设置 avatarEdit(ae)-------------------*/
+.ae .ae-icon {
+    margin-top: 1.36rem;
+    padding-left: 0.32rem;
+    padding-right: 0.32rem;
+}
+
+.ae .loop,
+.ae .zoom {
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+}
+
+.ae .loop {
+    background-image: url(../images/loop.png);
+}
+.ae .zoom {
+    background-image: url(../images/zoom.png);
+}
+
+.hollowBox {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+
+.hollowBox .hollow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 208px;
+    height: 208px;
+    border-radius: 50%;
+            box-shadow: rgba(67, 210, 113, 0.5) 0 0 0 13000px;
+    -webkit-box-shadow: rgba(67, 210, 113, 0.5) 0 0 0 13000px;
+}
+
+.hollowBox .img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.hollowBox img {
+    width: 100%;
+}*/
+
+.ae .btn {
+    width: 2.4rem;
+    border: 1px solid #45d276;
+    -webkit-box-shadow: 0 0 12px #d5ede3;
+            box-shadow: 0 0 12px #d5ede3;
+
+}
+
+.btnBox {
+    margin-top: 1.8rem;
+}
+
+/* 找回密码 fp(findPassword) --------------------*/
+
+.fp .btnBox .btn {
+    width: 100%;
+}
+
+.fp .btnBox {
+    margin-top: 1.05rem;
+}
+
+.inputBox .mui-input-row .mui-icon-eye.mui-active {
+    color: #45D276;
+}
+
+/* 注册成功 --------------------*/
+.suc {
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../images/bg_02.png);
+}
+
+.alertBox {
+    margin: 1.36rem auto auto auto;
+    width: 5.4rem;
+    height: 6.55rem;
+    background: #fff;
+    -webkit-box-shadow: 0 0 12px #d5ede3;
+        box-shadow: 0 0 12px #d5ede3;
+    border-radius: 10px;
+}
+
+.alertBox img {
+    margin-top: 1.15rem;
+    margin-bottom: 0.3rem;
+    width: 1.8rem;
+}
+
+.alertBox .p1 {
+    margin-bottom: 0.85rem;
+}
+.alertBox .p2 {
+    margin-bottom: 0.2rem;
+}
+.alertBox .p3 {
+    margin-bottom: 0.38rem;
+}
+
+.alertBox .scrollBar {
+    position: relative;
+    width: 4.5rem;
+    height: 4px;
+    border-radius: 2px;
+    background: #e3f8ea;
+    overflow: hidden;
+}
+
+.alertBox .scrollBar .move {
+    width: 0;
+    height: 100%;
+    border-radius: 2px;
+    background: linear-gradient(to right, #5cfe8e , #5fffc3);
+    
+    transition: all 5s linear;
+}
+
+.scrollBar.scrollAni .move {
+    width: 100%;
+}
+
+.suc .btnBox {
+    margin-top: 1.06rem;
+}
+/* 找回成功 -----------------*/
+.alertBox.find img {
+    margin-bottom: 0.6rem;
+}
+.alertBox.find .p1 {
+    margin-bottom: 0.15rem;
+}
+.alertBox.find .p2 {
+    margin-bottom: 0.76rem;
+}
+.alertBox.find .p3 {
+    margin-bottom: 0.42rem;
+}
