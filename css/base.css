@@ -366,6 +366,27 @@ i {
     background: #43d274;
     color: #fff;
 }
+
+.botnav .icon {
+    background-color: transparent;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+.botnav .icon.drug {
+    background-image: url(../images/icon_drug.png);
+}
+.botnav .icon.store {
+    background-image: url(../images/icon_store.png);
+}
+.botnav .icon.temp {
+    background-image: url(../images/icon_temp.png);
+}
+.botnav .icon.info {
+    background-image: url(../images/icon_info.png);
+}
+.botnav .icon.bbs {
+    background-image: url(../images/icon_bbs.png);
+}
 /*end 底部导航*/
 
 
