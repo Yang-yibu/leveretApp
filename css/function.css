@@ -183,11 +183,11 @@
 }
 
 .medicineInfo .icon-camera {
-    width: 0.38rem;
+    width: 0.53rem;
     height: 0.38rem;
-    margin-left: 0.18rem;
-    margin-right: 0.18rem;
-    background: red;
+    background: url(../images/camera.png) no-repeat;
+    background-size: 95%;
+    background-position: center;
 }
 
 .medicineInfo .infoItem .icon-triangle {
