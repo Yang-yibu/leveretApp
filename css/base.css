@@ -354,11 +354,20 @@ i {
     display: inline-block;
 }
 .icon {
-    margin-right: 3px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: red;
 }
+.icon-drug{background:url(../images/icon_drug.png); background-size: 100%;}
+.icon-store{background:url(../images/icon_store.png); background-size: 90%;}
+.icon-stem{background:url(../images/icon_temp.png); background-size: 100%;}
+.icon-info{background:url(../images/icon_info.png); background-size: 90%;}
+.icon-bbs{background:url(../images/icon_bbs.png); background-size: 100%;}
+.currentNav .icon-info{background:url(../images/icon_info1.png); background-size: 100%;}
+.currentNav .icon-drug{background:url(../images/icon_drug1.png); background-size: 100%;}
+.currentNav .icon-store{background:url(../images/icon_store1.png); background-size: 95%;}
+.currentNav .icon-bbs{background:url(../images/icon_bbs1.png); background-size: 100%;}
+.currentNav .icon-stem{background:url(../images/icon_temp1.png); background-size:100% 100%;}
 
 .currentNav {
     height: 100%;
@@ -369,7 +378,7 @@ i {
 
 .botnav .icon {
     background-color: transparent;
-    background-size: 15px 15px;
+   background-position: center;
     background-repeat: no-repeat;
 }
 .botnav .icon.drug {
