@@ -17,9 +17,9 @@
 
 <body>
 <!--侧滑跟容器-->
-<div class="mui-off-canvas-wrap mui-draggable mui-slide-in mui-active">
+<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable mui-slide-in mui-active">
 <!--侧滑菜单部分-->
-<aside class="mui-off-canvas-left mui-active">
+<aside id="offCanvasSide" class="mui-off-canvas-left mui-active">
     <div class="mui-scroll-wrapper menu">
         <div class="mui-scroll flex-col">
             <div class="userInfo flex-col">
@@ -56,8 +56,8 @@
 
 <!--侧滑菜单主体部分-->
 <div class="mui-inner-wrap">
-    
-    <div class="mui-backdrop"></div>
+    <!--mui-backdrop-->
+    <div class="mui-off-canvas-backdrop"></div>
     <!-- 顶部导航 -->
     <header class="mui-action-menu mui-bar mui-bar-nav bg-theme top-nav flex-row justify">
         <div class="navLeft flex-row">
@@ -115,6 +115,7 @@
             
         </div>
     </div>
+    
     <!--底部导航-->
     <div class="botnav flex-row f32 justify">
         <div class="currentNav botnavItem flex-col">
@@ -152,8 +153,7 @@
 
 <script src="../js/mui.min.js"></script>
 <script type="text/javascript">
-    -mui.init();
-    
+    mui.init();
 </script>
 
 </html>
